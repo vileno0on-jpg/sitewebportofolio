@@ -317,17 +317,19 @@ const Contact = () => {
             <div className="rounded-lg overflow-hidden shadow-lg border-2 border-primary-100">
               <div className="relative">
                 <iframe
-                  src="https://www.openstreetmap.org/export/embed.html?bbox=6.1450%2C46.1950%2C6.1750%2C46.2100&layer=mapnik&marker=46.20222%2C6.1602"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d444.1340760029145!2d6.161637189996229!3d46.201317756423194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c6535be6ec99b%3A0xc200a2744a464dd8!2sRte%20de%20Frontenex%2046%2C%201207%20Gen%C3%A8ve!5e0!3m2!1sen!2sch!4v1765836336299!5m2!1sen!2sch"
                   width="100%"
                   height="450"
                   style={{ border: 0 }}
                   title="Carte de Genève - Route de Frontenex 46, 1207 Genève"
                   className="w-full"
                   allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
                 <div className="absolute top-4 right-4">
                   <a
-                    href="https://www.openstreetmap.org/?mlat=46.20222&mlon=6.1602&zoom=16"
+                    href="https://www.google.com/maps/search/?api=1&query=Route+de+Frontenex+46,+1207+Genève,+Switzerland"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white hover:bg-primary-50 text-primary-600 px-4 py-2 rounded-lg shadow-md font-semibold text-sm transition-colors duration-200 flex items-center gap-2"
