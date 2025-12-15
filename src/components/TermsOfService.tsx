@@ -1,4 +1,4 @@
-import { HiDocumentText, HiShieldCheck, HiScale, HiExclamationCircle } from 'react-icons/hi'
+import { HiDocumentText, HiShieldCheck, HiScale, HiExclamationCircle, HiCheckCircle, HiLockClosed, HiGlobe, HiUser, HiOfficeBuilding, HiKey } from 'react-icons/hi'
 import { useTranslation } from 'react-i18next'
 
 interface TermsOfServiceProps {
@@ -142,9 +142,11 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
         {/* Content */}
         <div className="prose prose-lg max-w-none space-y-8">
           {/* Section 1 */}
-          <div id="section-1" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-              <HiDocumentText className="text-primary-600" size={24} />
+          <div id="section-1" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiDocumentText className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '1. Informations légales'}
               {currentLanguage === 'es' && '1. Información legal'}
               {currentLanguage === 'it' && '1. Informazioni legali'}
@@ -157,41 +159,50 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
                 {currentLanguage === 'it' && 'Il sito web è gestito da:'}
                 {currentLanguage === 'en' && 'The website is operated by:'}
               </p>
-              <div className="bg-gray-50 p-4 rounded-lg text-gray-900">
-                <p className="font-semibold text-gray-900">OD - Omar Deiri</p>
-                <p>
-                  {currentLanguage === 'fr' && 'Entreprise individuelle'}
-                  {currentLanguage === 'es' && 'Empresa individual'}
-                  {currentLanguage === 'it' && 'Ditta individuale'}
-                  {currentLanguage === 'en' && 'Sole proprietorship'}
-                </p>
-                <p>Route de Frontenex 46</p>
-                <p>
-                  {currentLanguage === 'fr' && '1207 Genève, Suisse'}
-                  {currentLanguage === 'es' && '1207 Ginebra, Suiza'}
-                  {currentLanguage === 'it' && '1207 Ginevra, Svizzera'}
-                  {currentLanguage === 'en' && '1207 Geneva, Switzerland'}
-                </p>
-                <p className="mt-2">
-                  <strong>
-                    {currentLanguage === 'fr' && 'Email :'}
-                    {currentLanguage === 'es' && 'Correo electrónico:'}
-                    {currentLanguage === 'it' && 'Email:'}
-                    {currentLanguage === 'en' && 'Email:'}
-                  </strong> omar@deiri.ch<br />
-                  <strong>
-                    {currentLanguage === 'fr' && 'Téléphone :'}
-                    {currentLanguage === 'es' && 'Teléfono:'}
-                    {currentLanguage === 'it' && 'Telefono:'}
-                    {currentLanguage === 'en' && 'Phone:'}
-                  </strong> 022 789 00 60
-                </p>
-                <p className="mt-2 text-sm text-gray-600">
-                  {currentLanguage === 'fr' && 'Agence en fonds de commerce autorisée par le Conseil d\'État genevois'}
-                  {currentLanguage === 'es' && 'Agencia de negocios autorizada por el Consejo de Estado de Ginebra'}
-                  {currentLanguage === 'it' && 'Agenzia d\'affari autorizzata dal Consiglio di Stato di Ginevra'}
-                  {currentLanguage === 'en' && 'Business agency authorized by the Geneva State Council'}
-                </p>
+              <div className="bg-gradient-to-br from-primary-50 to-gray-50 p-6 rounded-lg text-gray-900 border border-primary-100 shadow-sm">
+                <div className="flex items-start gap-3 mb-4">
+                  <HiOfficeBuilding className="text-primary-600 flex-shrink-0 mt-1" size={20} />
+                  <p className="font-semibold text-gray-900 text-lg">OD - Omar Deiri</p>
+                </div>
+                <div className="space-y-2 ml-8">
+                  <p className="text-gray-700">
+                    {currentLanguage === 'fr' && 'Entreprise individuelle'}
+                    {currentLanguage === 'es' && 'Empresa individual'}
+                    {currentLanguage === 'it' && 'Ditta individuale'}
+                    {currentLanguage === 'en' && 'Sole proprietorship'}
+                  </p>
+                  <p className="text-gray-700">Route de Frontenex 46</p>
+                  <p className="text-gray-700">
+                    {currentLanguage === 'fr' && '1207 Genève, Suisse'}
+                    {currentLanguage === 'es' && '1207 Ginebra, Suiza'}
+                    {currentLanguage === 'it' && '1207 Ginevra, Svizzera'}
+                    {currentLanguage === 'en' && '1207 Geneva, Switzerland'}
+                  </p>
+                  <div className="mt-4 pt-4 border-t border-primary-200 space-y-2">
+                    <p className="text-gray-700">
+                      <strong className="text-gray-900">
+                        {currentLanguage === 'fr' && 'Email :'}
+                        {currentLanguage === 'es' && 'Correo electrónico:'}
+                        {currentLanguage === 'it' && 'Email:'}
+                        {currentLanguage === 'en' && 'Email:'}
+                      </strong> <a href="mailto:omar@deiri.ch" className="text-primary-600 hover:underline">omar@deiri.ch</a>
+                    </p>
+                    <p className="text-gray-700">
+                      <strong className="text-gray-900">
+                        {currentLanguage === 'fr' && 'Téléphone :'}
+                        {currentLanguage === 'es' && 'Teléfono:'}
+                        {currentLanguage === 'it' && 'Telefono:'}
+                        {currentLanguage === 'en' && 'Phone:'}
+                      </strong> <a href="tel:+41227890060" className="text-primary-600 hover:underline">022 789 00 60</a>
+                    </p>
+                  </div>
+                  <p className="mt-4 text-sm text-gray-600 bg-white/50 p-2 rounded border border-gray-200">
+                    {currentLanguage === 'fr' && 'Agence en fonds de commerce autorisée par le Conseil d\'État genevois'}
+                    {currentLanguage === 'es' && 'Agencia de negocios autorizada por el Consejo de Estado de Ginebra'}
+                    {currentLanguage === 'it' && 'Agenzia d\'affari autorizzata dal Consiglio di Stato di Ginevra'}
+                    {currentLanguage === 'en' && 'Business agency authorized by the Geneva State Council'}
+                  </p>
+                </div>
               </div>
             </div>
           </div>

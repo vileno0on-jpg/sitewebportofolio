@@ -1,4 +1,4 @@
-import { HiShieldCheck, HiLockClosed, HiEye, HiUser, HiMail } from 'react-icons/hi'
+import { HiShieldCheck, HiLockClosed, HiEye, HiUser, HiMail, HiDatabase, HiGlobe, HiDocumentText, HiExclamationCircle, HiCheckCircle, HiKey } from 'react-icons/hi'
 import { useTranslation } from 'react-i18next'
 
 interface PrivacyPolicyProps {
@@ -145,9 +145,11 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
         {/* Content */}
         <div className="prose prose-lg max-w-none space-y-8">
           {/* Section 1 */}
-          <div id="section-1" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-              <HiUser className="text-primary-600" size={24} />
+          <div id="section-1" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiUser className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '1. Responsable du traitement'}
               {currentLanguage === 'es' && '1. Responsable del tratamiento'}
               {currentLanguage === 'it' && '1. Responsabile del trattamento'}
@@ -160,49 +162,60 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
                 {currentLanguage === 'it' && 'Il responsabile del trattamento dei dati è:'}
                 {currentLanguage === 'en' && 'The data controller is:'}
               </p>
-              <div className="bg-gray-50 p-4 rounded-lg text-gray-900">
-                <p className="font-semibold text-gray-900">OD - Omar Deiri</p>
-                <p>
-                  {currentLanguage === 'fr' && 'Entreprise individuelle'}
-                  {currentLanguage === 'es' && 'Empresa individual'}
-                  {currentLanguage === 'it' && 'Ditta individuale'}
-                  {currentLanguage === 'en' && 'Sole proprietorship'}
-                </p>
-                <p>Route de Frontenex 46</p>
-                <p>
-                  {currentLanguage === 'fr' && '1207 Genève, Suisse'}
-                  {currentLanguage === 'es' && '1207 Ginebra, Suiza'}
-                  {currentLanguage === 'it' && '1207 Ginevra, Svizzera'}
-                  {currentLanguage === 'en' && '1207 Geneva, Switzerland'}
-                </p>
-                <p className="mt-2">
-                  <strong>
-                    {currentLanguage === 'fr' && 'Email :'}
-                    {currentLanguage === 'es' && 'Correo electrónico:'}
-                    {currentLanguage === 'it' && 'Email:'}
-                    {currentLanguage === 'en' && 'Email:'}
-                  </strong> omar@deiri.ch<br />
-                  <strong>
-                    {currentLanguage === 'fr' && 'Téléphone :'}
-                    {currentLanguage === 'es' && 'Teléfono:'}
-                    {currentLanguage === 'it' && 'Telefono:'}
-                    {currentLanguage === 'en' && 'Phone:'}
-                  </strong> 022 789 00 60
-                </p>
-                <p className="mt-2 text-sm text-gray-600">
-                  {currentLanguage === 'fr' && 'Agence en fonds de commerce autorisée par le Conseil d\'État genevois'}
-                  {currentLanguage === 'es' && 'Agencia de negocios autorizada por el Consejo de Estado de Ginebra'}
-                  {currentLanguage === 'it' && 'Agenzia d\'affari autorizzata dal Consiglio di Stato di Ginevra'}
-                  {currentLanguage === 'en' && 'Business agency authorized by the Geneva State Council'}
-                </p>
+              <div className="bg-gradient-to-br from-primary-50 to-gray-50 p-6 rounded-lg text-gray-900 border border-primary-100 shadow-sm">
+                <div className="flex items-start gap-3 mb-4">
+                  <HiShieldCheck className="text-primary-600 flex-shrink-0 mt-1" size={20} />
+                  <p className="font-semibold text-gray-900 text-lg">OD - Omar Deiri</p>
+                </div>
+                <div className="space-y-2 ml-8">
+                  <p className="text-gray-700">
+                    {currentLanguage === 'fr' && 'Entreprise individuelle'}
+                    {currentLanguage === 'es' && 'Empresa individual'}
+                    {currentLanguage === 'it' && 'Ditta individuale'}
+                    {currentLanguage === 'en' && 'Sole proprietorship'}
+                  </p>
+                  <p className="text-gray-700">Route de Frontenex 46</p>
+                  <p className="text-gray-700">
+                    {currentLanguage === 'fr' && '1207 Genève, Suisse'}
+                    {currentLanguage === 'es' && '1207 Ginebra, Suiza'}
+                    {currentLanguage === 'it' && '1207 Ginevra, Svizzera'}
+                    {currentLanguage === 'en' && '1207 Geneva, Switzerland'}
+                  </p>
+                  <div className="mt-4 pt-4 border-t border-primary-200 space-y-2">
+                    <p className="text-gray-700">
+                      <strong className="text-gray-900">
+                        {currentLanguage === 'fr' && 'Email :'}
+                        {currentLanguage === 'es' && 'Correo electrónico:'}
+                        {currentLanguage === 'it' && 'Email:'}
+                        {currentLanguage === 'en' && 'Email:'}
+                      </strong> <a href="mailto:omar@deiri.ch" className="text-primary-600 hover:underline">omar@deiri.ch</a>
+                    </p>
+                    <p className="text-gray-700">
+                      <strong className="text-gray-900">
+                        {currentLanguage === 'fr' && 'Téléphone :'}
+                        {currentLanguage === 'es' && 'Teléfono:'}
+                        {currentLanguage === 'it' && 'Telefono:'}
+                        {currentLanguage === 'en' && 'Phone:'}
+                      </strong> <a href="tel:+41227890060" className="text-primary-600 hover:underline">022 789 00 60</a>
+                    </p>
+                  </div>
+                  <p className="mt-4 text-sm text-gray-600 bg-white/50 p-2 rounded border border-gray-200">
+                    {currentLanguage === 'fr' && 'Agence en fonds de commerce autorisée par le Conseil d\'État genevois'}
+                    {currentLanguage === 'es' && 'Agencia de negocios autorizada por el Consejo de Estado de Ginebra'}
+                    {currentLanguage === 'it' && 'Agenzia d\'affari autorizzata dal Consiglio di Stato di Ginevra'}
+                    {currentLanguage === 'en' && 'Business agency authorized by the Geneva State Council'}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
 
           {/* Section 2 */}
-          <div id="section-2" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-              <HiEye className="text-primary-600" size={24} />
+          <div id="section-2" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiDatabase className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '2. Données collectées'}
               {currentLanguage === 'es' && '2. Datos recopilados'}
               {currentLanguage === 'it' && '2. Dati raccolti'}
@@ -215,38 +228,77 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
                 {currentLanguage === 'it' && 'Raccogliamo i seguenti tipi di dati personali:'}
                 {currentLanguage === 'en' && 'We collect the following types of personal data:'}
               </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>
-                  {currentLanguage === 'fr' && 'Données d\'identification : nom, prénom, adresse email, numéro de téléphone'}
-                  {currentLanguage === 'es' && 'Datos de identificación: nombre, apellido, dirección de correo electrónico, número de teléfono'}
-                  {currentLanguage === 'it' && 'Dati di identificazione: nome, cognome, indirizzo email, numero di telefono'}
-                  {currentLanguage === 'en' && 'Identification data: name, surname, email address, phone number'}
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <HiUser className="text-primary-600 flex-shrink-0 mt-1" size={18} />
+                  <span>
+                    <strong className="text-gray-900">
+                      {currentLanguage === 'fr' && 'Données d\'identification :'}
+                      {currentLanguage === 'es' && 'Datos de identificación:'}
+                      {currentLanguage === 'it' && 'Dati di identificazione:'}
+                      {currentLanguage === 'en' && 'Identification data:'}
+                    </strong>{' '}
+                    {currentLanguage === 'fr' && 'nom, prénom, adresse email, numéro de téléphone'}
+                    {currentLanguage === 'es' && 'nombre, apellido, dirección de correo electrónico, número de teléfono'}
+                    {currentLanguage === 'it' && 'nome, cognome, indirizzo email, numero di telefono'}
+                    {currentLanguage === 'en' && 'name, surname, email address, phone number'}
+                  </span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Données de navigation : adresse IP, type de navigateur, pages visitées, durée de visite'}
-                  {currentLanguage === 'es' && 'Datos de navegación: dirección IP, tipo de navegador, páginas visitadas, duración de la visita'}
-                  {currentLanguage === 'it' && 'Dati di navigazione: indirizzo IP, tipo di browser, pagine visitate, durata della visita'}
-                  {currentLanguage === 'en' && 'Navigation data: IP address, browser type, pages visited, visit duration'}
+                <li className="flex items-start gap-3">
+                  <HiEye className="text-primary-600 flex-shrink-0 mt-1" size={18} />
+                  <span>
+                    <strong className="text-gray-900">
+                      {currentLanguage === 'fr' && 'Données de navigation :'}
+                      {currentLanguage === 'es' && 'Datos de navegación:'}
+                      {currentLanguage === 'it' && 'Dati di navigazione:'}
+                      {currentLanguage === 'en' && 'Navigation data:'}
+                    </strong>{' '}
+                    {currentLanguage === 'fr' && 'adresse IP, type de navigateur, pages visitées, durée de visite'}
+                    {currentLanguage === 'es' && 'dirección IP, tipo de navegador, páginas visitadas, duración de la visita'}
+                    {currentLanguage === 'it' && 'indirizzo IP, tipo di browser, pagine visitate, durata della visita'}
+                    {currentLanguage === 'en' && 'IP address, browser type, pages visited, visit duration'}
+                  </span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Données de communication : messages envoyés via le formulaire de contact'}
-                  {currentLanguage === 'es' && 'Datos de comunicación: mensajes enviados a través del formulario de contacto'}
-                  {currentLanguage === 'it' && 'Dati di comunicazione: messaggi inviati tramite il modulo di contatto'}
-                  {currentLanguage === 'en' && 'Communication data: messages sent via the contact form'}
+                <li className="flex items-start gap-3">
+                  <HiMail className="text-primary-600 flex-shrink-0 mt-1" size={18} />
+                  <span>
+                    <strong className="text-gray-900">
+                      {currentLanguage === 'fr' && 'Données de communication :'}
+                      {currentLanguage === 'es' && 'Datos de comunicación:'}
+                      {currentLanguage === 'it' && 'Dati di comunicazione:'}
+                      {currentLanguage === 'en' && 'Communication data:'}
+                    </strong>{' '}
+                    {currentLanguage === 'fr' && 'messages envoyés via le formulaire de contact'}
+                    {currentLanguage === 'es' && 'mensajes enviados a través del formulario de contacto'}
+                    {currentLanguage === 'it' && 'messaggi inviati tramite il modulo di contatto'}
+                    {currentLanguage === 'en' && 'messages sent via the contact form'}
+                  </span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Préférences : langue sélectionnée, préférences de cookies'}
-                  {currentLanguage === 'es' && 'Preferencias: idioma seleccionado, preferencias de cookies'}
-                  {currentLanguage === 'it' && 'Preferenze: lingua selezionata, preferenze dei cookie'}
-                  {currentLanguage === 'en' && 'Preferences: selected language, cookie preferences'}
+                <li className="flex items-start gap-3">
+                  <HiCheckCircle className="text-primary-600 flex-shrink-0 mt-1" size={18} />
+                  <span>
+                    <strong className="text-gray-900">
+                      {currentLanguage === 'fr' && 'Préférences :'}
+                      {currentLanguage === 'es' && 'Preferencias:'}
+                      {currentLanguage === 'it' && 'Preferenze:'}
+                      {currentLanguage === 'en' && 'Preferences:'}
+                    </strong>{' '}
+                    {currentLanguage === 'fr' && 'langue sélectionnée, préférences de cookies'}
+                    {currentLanguage === 'es' && 'idioma seleccionado, preferencias de cookies'}
+                    {currentLanguage === 'it' && 'lingua selezionata, preferenze dei cookie'}
+                    {currentLanguage === 'en' && 'selected language, cookie preferences'}
+                  </span>
                 </li>
               </ul>
             </div>
           </div>
 
           {/* Section 3 */}
-          <div id="section-3" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-3" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiDocumentText className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '3. Finalités du traitement'}
               {currentLanguage === 'es' && '3. Finalidades del tratamiento'}
               {currentLanguage === 'it' && '3. Finalità del trattamento'}
@@ -259,44 +311,52 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
                 {currentLanguage === 'it' && 'I vostri dati personali vengono trattati per le seguenti finalità:'}
                 {currentLanguage === 'en' && 'Your personal data is processed for the following purposes:'}
               </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>
-                  {currentLanguage === 'fr' && 'Répondre à vos demandes de contact et de renseignements'}
-                  {currentLanguage === 'es' && 'Responder a sus solicitudes de contacto e información'}
-                  {currentLanguage === 'it' && 'Rispondere alle vostre richieste di contatto e informazioni'}
-                  {currentLanguage === 'en' && 'Responding to your contact and information requests'}
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <HiCheckCircle className="text-primary-600 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Répondre à vos demandes de contact et de renseignements'}
+                    {currentLanguage === 'es' && 'Responder a sus solicitudes de contacto e información'}
+                    {currentLanguage === 'it' && 'Rispondere alle vostre richieste di contatto e informazioni'}
+                    {currentLanguage === 'en' && 'Responding to your contact and information requests'}</span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Fournir nos services professionnels (intermédiation, négociation, conseil)'}
-                  {currentLanguage === 'es' && 'Proporcionar nuestros servicios profesionales (intermediación, negociación, consultoría)'}
-                  {currentLanguage === 'it' && 'Fornire i nostri servizi professionali (intermediazione, negoziazione, consulenza)'}
-                  {currentLanguage === 'en' && 'Providing our professional services (intermediation, negotiation, consulting)'}
+                <li className="flex items-start gap-3">
+                  <HiCheckCircle className="text-primary-600 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Fournir nos services professionnels (intermédiation, négociation, conseil)'}
+                    {currentLanguage === 'es' && 'Proporcionar nuestros servicios profesionales (intermediación, negociación, consultoría)'}
+                    {currentLanguage === 'it' && 'Fornire i nostri servizi professionali (intermediazione, negoziazione, consulenza)'}
+                    {currentLanguage === 'en' && 'Providing our professional services (intermediation, negotiation, consulting)'}</span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Améliorer notre site web et l\'expérience utilisateur'}
-                  {currentLanguage === 'es' && 'Mejorar nuestro sitio web y la experiencia del usuario'}
-                  {currentLanguage === 'it' && 'Migliorare il nostro sito web e l\'esperienza dell\'utente'}
-                  {currentLanguage === 'en' && 'Improving our website and user experience'}
+                <li className="flex items-start gap-3">
+                  <HiCheckCircle className="text-primary-600 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Améliorer notre site web et l\'expérience utilisateur'}
+                    {currentLanguage === 'es' && 'Mejorar nuestro sitio web y la experiencia del usuario'}
+                    {currentLanguage === 'it' && 'Migliorare il nostro sito web e l\'esperienza dell\'utente'}
+                    {currentLanguage === 'en' && 'Improving our website and user experience'}</span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Respecter nos obligations légales et réglementaires'}
-                  {currentLanguage === 'es' && 'Cumplir con nuestras obligaciones legales y regulatorias'}
-                  {currentLanguage === 'it' && 'Rispettare i nostri obblighi legali e normativi'}
-                  {currentLanguage === 'en' && 'Complying with our legal and regulatory obligations'}
+                <li className="flex items-start gap-3">
+                  <HiCheckCircle className="text-primary-600 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Respecter nos obligations légales et réglementaires'}
+                    {currentLanguage === 'es' && 'Cumplir con nuestras obligaciones legales y regulatorias'}
+                    {currentLanguage === 'it' && 'Rispettare i nostri obblighi legali e normativi'}
+                    {currentLanguage === 'en' && 'Complying with our legal and regulatory obligations'}</span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Gérer la relation client et la communication'}
-                  {currentLanguage === 'es' && 'Gestionar la relación con el cliente y la comunicación'}
-                  {currentLanguage === 'it' && 'Gestire la relazione con il cliente e la comunicazione'}
-                  {currentLanguage === 'en' && 'Managing customer relationship and communication'}
+                <li className="flex items-start gap-3">
+                  <HiCheckCircle className="text-primary-600 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Gérer la relation client et la communication'}
+                    {currentLanguage === 'es' && 'Gestionar la relación con el cliente y la comunicación'}
+                    {currentLanguage === 'it' && 'Gestire la relazione con il cliente e la comunicazione'}
+                    {currentLanguage === 'en' && 'Managing customer relationship and communication'}</span>
                 </li>
               </ul>
             </div>
           </div>
 
           {/* Section 4 */}
-          <div id="section-4" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-4" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiKey className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '4. Base légale du traitement'}
               {currentLanguage === 'es' && '4. Base legal del tratamiento'}
               {currentLanguage === 'it' && '4. Base legale del trattamento'}
@@ -339,9 +399,11 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 5 */}
-          <div id="section-5" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-              <HiLockClosed className="text-primary-600" size={24} />
+          <div id="section-5" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiLockClosed className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '5. Conservation des données'}
               {currentLanguage === 'es' && '5. Conservación de datos'}
               {currentLanguage === 'it' && '5. Conservazione dei dati'}
@@ -378,8 +440,11 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 6 */}
-          <div id="section-6" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-6" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiGlobe className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '6. Partage des données'}
               {currentLanguage === 'es' && '6. Compartir datos'}
               {currentLanguage === 'it' && '6. Condivisione dei dati'}
@@ -416,8 +481,11 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 7 */}
-          <div id="section-7" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-7" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiShieldCheck className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '7. Vos droits'}
               {currentLanguage === 'es' && '7. Sus derechos'}
               {currentLanguage === 'it' && '7. I vostri diritti'}
@@ -533,8 +601,11 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 8 */}
-          <div id="section-8" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-8" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiLockClosed className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '8. Sécurité des données'}
               {currentLanguage === 'es' && '8. Seguridad de datos'}
               {currentLanguage === 'it' && '8. Sicurezza dei dati'}
@@ -571,8 +642,11 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 9 */}
-          <div id="section-9" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-9" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiGlobe className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '9. Transferts internationaux'}
               {currentLanguage === 'es' && '9. Transferencias internacionales'}
               {currentLanguage === 'it' && '9. Trasferimenti internazionali'}
@@ -589,8 +663,11 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 10 */}
-          <div id="section-10" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-10" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiDocumentText className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '10. Cookies'}
               {currentLanguage === 'es' && '10. Cookies'}
               {currentLanguage === 'it' && '10. Cookie'}
@@ -616,8 +693,11 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 11 */}
-          <div id="section-11" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-11" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiExclamationCircle className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '11. Modifications'}
               {currentLanguage === 'es' && '11. Modificaciones'}
               {currentLanguage === 'it' && '11. Modifiche'}
@@ -634,8 +714,11 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 12 */}
-          <div id="section-12" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-12" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiExclamationCircle className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '12. Réclamations'}
               {currentLanguage === 'es' && '12. Reclamaciones'}
               {currentLanguage === 'it' && '12. Reclami'}
