@@ -793,9 +793,9 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
                 )}
                 {currentLanguage === 'en' && (
                   <>
-                    If a provision of these terms of service is declared null or inapplicable, the other 
-                    provisions shall remain in effect. The null provision shall be replaced by a valid provision that 
-                    comes as close as possible to the original intention.
+                    <span>If a provision of these terms of service is declared null or inapplicable, the other</span>
+                    <span> provisions shall remain in effect. The null provision shall be replaced by a valid provision that</span>
+                    <span> comes as close as possible to the original intention.</span>
                   </>
                 )}
               </p>
@@ -849,4 +849,5 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
 }
 
 export default TermsOfService
+
 
