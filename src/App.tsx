@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 import PrivacyPolicy from './components/PrivacyPolicy'
 import TermsOfService from './components/TermsOfService'
 import CookiePolicy from './components/CookiePolicy'
+import CookieConsent from './components/CookieConsent'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home')
@@ -27,6 +28,7 @@ function App() {
         {activeSection === 'cookie-policy' && <CookiePolicy setActiveSection={setActiveSection} />}
       </main>
       <Footer setActiveSection={setActiveSection} />
+      <CookieConsent setActiveSection={setActiveSection} />
     </div>
   )
 }
