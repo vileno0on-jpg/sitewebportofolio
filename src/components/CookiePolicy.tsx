@@ -304,11 +304,40 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
             </h2>
             <div className="text-gray-700 space-y-3">
               <p>
-                {currentLanguage === 'fr' && 'Actuellement, notre site utilise les cookies suivants :'}
-                {currentLanguage === 'es' && 'Actualmente, nuestro sitio utiliza las siguientes cookies:'}
-                {currentLanguage === 'it' && 'Attualmente, il nostro sito utilizza i seguenti cookie:'}
-                {currentLanguage === 'en' && 'Currently, our site uses the following cookies:'}
+                {currentLanguage === 'fr' && 'Actuellement, notre site utilise les technologies de stockage suivantes :'}
+                {currentLanguage === 'es' && 'Actualmente, nuestro sitio utiliza las siguientes tecnologías de almacenamiento:'}
+                {currentLanguage === 'it' && 'Attualmente, il nostro sito utilizza le seguenti tecnologie di archiviazione:'}
+                {currentLanguage === 'en' && 'Currently, our site uses the following storage technologies:'}
               </p>
+              <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-lg mb-4">
+                <p className="text-sm text-blue-800">
+                  {currentLanguage === 'fr' && (
+                    <>
+                      <strong>Note importante :</strong> Notre site utilise actuellement le stockage local du navigateur (localStorage) 
+                      plutôt que des cookies HTTP traditionnels. Ces données sont stockées localement sur votre appareil et ne sont 
+                      pas transmises au serveur.
+                    </>
+                  )}
+                  {currentLanguage === 'es' && (
+                    <>
+                      <strong>Nota importante :</strong> Nuestro sitio actualmente utiliza almacenamiento local del navegador (localStorage) 
+                      en lugar de cookies HTTP tradicionales. Estos datos se almacenan localmente en su dispositivo y no se transmiten al servidor.
+                    </>
+                  )}
+                  {currentLanguage === 'it' && (
+                    <>
+                      <strong>Nota importante :</strong> Il nostro sito utilizza attualmente l'archiviazione locale del browser (localStorage) 
+                      invece dei cookie HTTP tradizionali. Questi dati sono archiviati localmente sul vostro dispositivo e non vengono trasmessi al server.
+                    </>
+                  )}
+                  {currentLanguage === 'en' && (
+                    <>
+                      <strong>Important note :</strong> Our site currently uses browser local storage (localStorage) 
+                      rather than traditional HTTP cookies. This data is stored locally on your device and is not transmitted to the server.
+                    </>
+                  )}
+                </p>
+              </div>
               <div className="bg-gray-50 p-4 rounded-lg text-gray-900">
                 <table className="w-full text-sm text-gray-900">
                   <thead>
@@ -341,70 +370,98 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
                   </thead>
                   <tbody>
                     <tr className="border-b">
-                      <td className="py-2 px-2 font-mono text-xs text-gray-900">session_id</td>
+                      <td className="py-2 px-2 font-mono text-xs text-gray-900">cookieConsent</td>
                       <td className="py-2 px-2 text-gray-900">
-                        {currentLanguage === 'fr' && 'Strictement nécessaire'}
-                        {currentLanguage === 'es' && 'Estrictamente necesaria'}
-                        {currentLanguage === 'it' && 'Strettamente necessario'}
-                        {currentLanguage === 'en' && 'Strictly necessary'}
+                        {currentLanguage === 'fr' && 'Strictement nécessaire (localStorage)'}
+                        {currentLanguage === 'es' && 'Estrictamente necesaria (localStorage)'}
+                        {currentLanguage === 'it' && 'Strettamente necessario (localStorage)'}
+                        {currentLanguage === 'en' && 'Strictly necessary (localStorage)'}
                       </td>
                       <td className="py-2 px-2 text-gray-900">
-                        {currentLanguage === 'fr' && 'Session'}
-                        {currentLanguage === 'es' && 'Sesión'}
-                        {currentLanguage === 'it' && 'Sessione'}
-                        {currentLanguage === 'en' && 'Session'}
+                        {currentLanguage === 'fr' && 'Jusqu\'à suppression manuelle'}
+                        {currentLanguage === 'es' && 'Hasta eliminación manual'}
+                        {currentLanguage === 'it' && 'Fino alla cancellazione manuale'}
+                        {currentLanguage === 'en' && 'Until manual deletion'}
                       </td>
                       <td className="py-2 px-2 text-gray-900">
-                        {currentLanguage === 'fr' && 'Maintien de la session utilisateur'}
-                        {currentLanguage === 'es' && 'Mantenimiento de la sesión del usuario'}
-                        {currentLanguage === 'it' && 'Mantenimento della sessione utente'}
-                        {currentLanguage === 'en' && 'Maintaining user session'}
+                        {currentLanguage === 'fr' && 'Mémorisation de votre choix concernant les cookies (accepté/refusé)'}
+                        {currentLanguage === 'es' && 'Memorización de su elección sobre las cookies (aceptado/rechazado)'}
+                        {currentLanguage === 'it' && 'Memorizzazione della vostra scelta riguardo ai cookie (accettato/rifiutato)'}
+                        {currentLanguage === 'en' && 'Remembering your cookie choice (accepted/declined)'}
                       </td>
                     </tr>
                     <tr className="border-b">
-                      <td className="py-2 px-2 font-mono text-xs text-gray-900">cookie_consent</td>
+                      <td className="py-2 px-2 font-mono text-xs text-gray-900">cookieConsentDate</td>
                       <td className="py-2 px-2 text-gray-900">
-                        {currentLanguage === 'fr' && 'Strictement nécessaire'}
-                        {currentLanguage === 'es' && 'Estrictamente necesaria'}
-                        {currentLanguage === 'it' && 'Strettamente necessario'}
-                        {currentLanguage === 'en' && 'Strictly necessary'}
+                        {currentLanguage === 'fr' && 'Strictement nécessaire (localStorage)'}
+                        {currentLanguage === 'es' && 'Estrictamente necesaria (localStorage)'}
+                        {currentLanguage === 'it' && 'Strettamente necessario (localStorage)'}
+                        {currentLanguage === 'en' && 'Strictly necessary (localStorage)'}
                       </td>
                       <td className="py-2 px-2 text-gray-900">
-                        {currentLanguage === 'fr' && '13 mois'}
-                        {currentLanguage === 'es' && '13 meses'}
-                        {currentLanguage === 'it' && '13 mesi'}
-                        {currentLanguage === 'en' && '13 months'}
+                        {currentLanguage === 'fr' && 'Jusqu\'à suppression manuelle'}
+                        {currentLanguage === 'es' && 'Hasta eliminación manual'}
+                        {currentLanguage === 'it' && 'Fino alla cancellazione manuale'}
+                        {currentLanguage === 'en' && 'Until manual deletion'}
                       </td>
                       <td className="py-2 px-2 text-gray-900">
-                        {currentLanguage === 'fr' && 'Mémorisation de votre choix concernant les cookies'}
-                        {currentLanguage === 'es' && 'Memorización de su elección sobre las cookies'}
-                        {currentLanguage === 'it' && 'Memorizzazione della vostra scelta riguardo ai cookie'}
-                        {currentLanguage === 'en' && 'Remembering your cookie choice'}
+                        {currentLanguage === 'fr' && 'Date de votre consentement aux cookies'}
+                        {currentLanguage === 'es' && 'Fecha de su consentimiento de cookies'}
+                        {currentLanguage === 'it' && 'Data del vostro consenso ai cookie'}
+                        {currentLanguage === 'en' && 'Date of your cookie consent'}
                       </td>
                     </tr>
                     <tr>
-                      <td className="py-2 px-2 font-mono text-xs text-gray-900">analytics_*</td>
+                      <td className="py-2 px-2 font-mono text-xs text-gray-900">i18nextLng</td>
                       <td className="py-2 px-2 text-gray-900">
-                        {currentLanguage === 'fr' && 'Performance'}
-                        {currentLanguage === 'es' && 'Rendimiento'}
-                        {currentLanguage === 'it' && 'Prestazioni'}
-                        {currentLanguage === 'en' && 'Performance'}
+                        {currentLanguage === 'fr' && 'Fonctionnalité (localStorage)'}
+                        {currentLanguage === 'es' && 'Funcionalidad (localStorage)'}
+                        {currentLanguage === 'it' && 'Funzionalità (localStorage)'}
+                        {currentLanguage === 'en' && 'Functionality (localStorage)'}
                       </td>
                       <td className="py-2 px-2 text-gray-900">
-                        {currentLanguage === 'fr' && '13 mois'}
-                        {currentLanguage === 'es' && '13 meses'}
-                        {currentLanguage === 'it' && '13 mesi'}
-                        {currentLanguage === 'en' && '13 months'}
+                        {currentLanguage === 'fr' && 'Jusqu\'à suppression manuelle'}
+                        {currentLanguage === 'es' && 'Hasta eliminación manual'}
+                        {currentLanguage === 'it' && 'Fino alla cancellazione manuale'}
+                        {currentLanguage === 'en' && 'Until manual deletion'}
                       </td>
                       <td className="py-2 px-2 text-gray-900">
-                        {currentLanguage === 'fr' && 'Analyse du trafic et du comportement des visiteurs'}
-                        {currentLanguage === 'es' && 'Análisis de tráfico y comportamiento de visitantes'}
-                        {currentLanguage === 'it' && 'Analisi del traffico e comportamento dei visitatori'}
-                        {currentLanguage === 'en' && 'Traffic and visitor behavior analysis'}
+                        {currentLanguage === 'fr' && 'Mémorisation de votre préférence de langue (fr, en, es, it)'}
+                        {currentLanguage === 'es' && 'Memorización de su preferencia de idioma (fr, en, es, it)'}
+                        {currentLanguage === 'it' && 'Memorizzazione della vostra preferenza di lingua (fr, en, es, it)'}
+                        {currentLanguage === 'en' && 'Remembering your language preference (fr, en, es, it)'}
                       </td>
                     </tr>
                   </tbody>
                 </table>
+              </div>
+              <div className="mt-4 p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
+                <p className="text-sm text-yellow-800">
+                  {currentLanguage === 'fr' && (
+                    <>
+                      <strong>Note :</strong> Actuellement, nous n'utilisons pas de cookies de suivi ou d'analyse tiers (comme Google Analytics). 
+                      Si nous décidons d'en ajouter à l'avenir, nous mettrons à jour cette politique et vous en informerons.
+                    </>
+                  )}
+                  {currentLanguage === 'es' && (
+                    <>
+                      <strong>Nota :</strong> Actualmente, no utilizamos cookies de seguimiento o análisis de terceros (como Google Analytics). 
+                      Si decidimos agregarlos en el futuro, actualizaremos esta política y le informaremos.
+                    </>
+                  )}
+                  {currentLanguage === 'it' && (
+                    <>
+                      <strong>Nota :</strong> Attualmente, non utilizziamo cookie di tracciamento o analisi di terze parti (come Google Analytics). 
+                      Se decidiamo di aggiungerli in futuro, aggiorneremo questa politica e vi informeremo.
+                    </>
+                  )}
+                  {currentLanguage === 'en' && (
+                    <>
+                      <strong>Note :</strong> Currently, we do not use any third-party tracking or analytics cookies (such as Google Analytics). 
+                      If we decide to add them in the future, we will update this policy and inform you.
+                    </>
+                  )}
+                </p>
               </div>
             </div>
           </div>

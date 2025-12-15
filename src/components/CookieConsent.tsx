@@ -65,8 +65,8 @@ const CookieConsent = ({ setActiveSection }: CookieConsentProps) => {
               <p className="text-sm md:text-base text-gray-700 mb-4 leading-relaxed">
                 {currentLanguage === 'fr' && (
                   <>
-                    Ce site utilise des cookies pour améliorer votre expérience de navigation et analyser le trafic. 
-                    En cliquant sur "Accepter", vous acceptez notre utilisation des cookies. 
+                    Ce site utilise le stockage local du navigateur pour mémoriser vos préférences (langue, consentement). 
+                    En cliquant sur "Accepter", vous acceptez notre utilisation de ces technologies. 
                     <button
                       onClick={handleCustomize}
                       className="text-primary-600 hover:underline font-semibold ml-1"
@@ -77,8 +77,8 @@ const CookieConsent = ({ setActiveSection }: CookieConsentProps) => {
                 )}
                 {currentLanguage === 'es' && (
                   <>
-                    Este sitio utiliza cookies para mejorar su experiencia de navegación y analizar el tráfico. 
-                    Al hacer clic en "Aceptar", acepta nuestro uso de cookies. 
+                    Este sitio utiliza almacenamiento local del navegador para recordar sus preferencias (idioma, consentimiento). 
+                    Al hacer clic en "Aceptar", acepta nuestro uso de estas tecnologías. 
                     <button
                       onClick={handleCustomize}
                       className="text-primary-600 hover:underline font-semibold ml-1"
@@ -89,8 +89,8 @@ const CookieConsent = ({ setActiveSection }: CookieConsentProps) => {
                 )}
                 {currentLanguage === 'it' && (
                   <>
-                    Questo sito utilizza i cookie per migliorare la vostra esperienza di navigazione e analizzare il traffico. 
-                    Cliccando su "Accetta", accettate il nostro utilizzo dei cookie. 
+                    Questo sito utilizza l'archiviazione locale del browser per ricordare le vostre preferenze (lingua, consenso). 
+                    Cliccando su "Accetta", accettate il nostro utilizzo di queste tecnologie. 
                     <button
                       onClick={handleCustomize}
                       className="text-primary-600 hover:underline font-semibold ml-1"
@@ -101,8 +101,8 @@ const CookieConsent = ({ setActiveSection }: CookieConsentProps) => {
                 )}
                 {currentLanguage === 'en' && (
                   <>
-                    This website uses cookies to enhance your browsing experience and analyze traffic. 
-                    By clicking "Accept", you consent to our use of cookies. 
+                    This website uses browser local storage to remember your preferences (language, consent). 
+                    By clicking "Accept", you consent to our use of these technologies. 
                     <button
                       onClick={handleCustomize}
                       className="text-primary-600 hover:underline font-semibold ml-1"
