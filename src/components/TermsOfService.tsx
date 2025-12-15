@@ -35,7 +35,7 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
   }
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white text-gray-900">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
@@ -92,7 +92,7 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
         </div>
 
         {/* Table of Contents */}
-        <div className="bg-gray-50 border-l-4 border-primary-600 p-6 rounded-lg mb-8">
+        <div className="bg-gray-50 border-l-4 border-primary-600 p-6 rounded-lg mb-8 text-gray-900">
           <h2 className="text-xl font-bold text-gray-900 mb-4">
             {currentLanguage === 'fr' && 'Table des matières'}
             {currentLanguage === 'es' && 'Tabla de contenidos'}
@@ -157,8 +157,8 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
                 {currentLanguage === 'it' && 'Il sito web è gestito da:'}
                 {currentLanguage === 'en' && 'The website is operated by:'}
               </p>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <p className="font-semibold">OD - Omar Deiri</p>
+              <div className="bg-gray-50 p-4 rounded-lg text-gray-900">
+                <p className="font-semibold text-gray-900">OD - Omar Deiri</p>
                 <p>
                   {currentLanguage === 'fr' && 'Entreprise individuelle'}
                   {currentLanguage === 'es' && 'Empresa individual'}

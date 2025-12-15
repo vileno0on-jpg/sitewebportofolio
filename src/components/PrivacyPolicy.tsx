@@ -35,7 +35,7 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
   }
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white text-gray-900">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
@@ -95,7 +95,7 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
         </div>
 
         {/* Table of Contents */}
-        <div className="bg-gray-50 border-l-4 border-primary-600 p-6 rounded-lg mb-8">
+        <div className="bg-gray-50 border-l-4 border-primary-600 p-6 rounded-lg mb-8 text-gray-900">
           <h2 className="text-xl font-bold text-gray-900 mb-4">
             {currentLanguage === 'fr' && 'Table des matières'}
             {currentLanguage === 'es' && 'Tabla de contenidos'}
@@ -160,8 +160,8 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
                 {currentLanguage === 'it' && 'Il responsabile del trattamento dei dati è:'}
                 {currentLanguage === 'en' && 'The data controller is:'}
               </p>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <p className="font-semibold">OD - Omar Deiri</p>
+              <div className="bg-gray-50 p-4 rounded-lg text-gray-900">
+                <p className="font-semibold text-gray-900">OD - Omar Deiri</p>
                 <p>
                   {currentLanguage === 'fr' && 'Entreprise individuelle'}
                   {currentLanguage === 'es' && 'Empresa individual'}
@@ -648,14 +648,14 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
                 {currentLanguage === 'it' && 'Se ritenete che il trattamento dei vostri dati personali costituisca una violazione della legislazione sulla protezione dei dati, avete il diritto di presentare un reclamo all\'autorità di controllo competente:'}
                 {currentLanguage === 'en' && 'If you believe that the processing of your personal data constitutes a violation of data protection legislation, you have the right to file a complaint with the competent supervisory authority:'}
               </p>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <p className="font-semibold">
+              <div className="bg-gray-50 p-4 rounded-lg text-gray-900">
+                <p className="font-semibold text-gray-900">
                   {currentLanguage === 'fr' && 'Préposé fédéral à la protection des données et à la transparence (PFPDT)'}
                   {currentLanguage === 'es' && 'Comisionado Federal de Protección de Datos y Transparencia (PFPDT)'}
                   {currentLanguage === 'it' && 'Incaricato federale della protezione dei dati e della trasparenza (IFPDT)'}
                   {currentLanguage === 'en' && 'Federal Data Protection and Information Commissioner (FDPIC)'}
                 </p>
-                <p>Feldeggweg 1, 3003 Berne, Suisse</p>
+                <p className="text-gray-900">Feldeggweg 1, 3003 Berne, Suisse</p>
                 <p>
                   {currentLanguage === 'fr' && 'Site web : '}
                   {currentLanguage === 'es' && 'Sitio web: '}

@@ -28,7 +28,7 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
   }
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white text-gray-900">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
@@ -81,7 +81,7 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
         </div>
 
         {/* Table of Contents */}
-        <div className="bg-gray-50 border-l-4 border-primary-600 p-6 rounded-lg mb-8">
+        <div className="bg-gray-50 border-l-4 border-primary-600 p-6 rounded-lg mb-8 text-gray-900">
           <h2 className="text-xl font-bold text-gray-900 mb-4">
             {currentLanguage === 'fr' && 'Table des matières'}
             {currentLanguage === 'es' && 'Tabla de contenidos'}
@@ -301,29 +301,29 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
                 {currentLanguage === 'it' && 'Attualmente, il nostro sito utilizza i seguenti cookie:'}
                 {currentLanguage === 'en' && 'Currently, our site uses the following cookies:'}
               </p>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <table className="w-full text-sm">
+              <div className="bg-gray-50 p-4 rounded-lg text-gray-900">
+                <table className="w-full text-sm text-gray-900">
                   <thead>
                     <tr className="border-b">
-                      <th className="text-left py-2 px-2">
+                      <th className="text-left py-2 px-2 text-gray-900 font-semibold">
                         {currentLanguage === 'fr' && 'Nom'}
                         {currentLanguage === 'es' && 'Nombre'}
                         {currentLanguage === 'it' && 'Nome'}
                         {currentLanguage === 'en' && 'Name'}
                       </th>
-                      <th className="text-left py-2 px-2">
+                      <th className="text-left py-2 px-2 text-gray-900 font-semibold">
                         {currentLanguage === 'fr' && 'Type'}
                         {currentLanguage === 'es' && 'Tipo'}
                         {currentLanguage === 'it' && 'Tipo'}
                         {currentLanguage === 'en' && 'Type'}
                       </th>
-                      <th className="text-left py-2 px-2">
+                      <th className="text-left py-2 px-2 text-gray-900 font-semibold">
                         {currentLanguage === 'fr' && 'Durée'}
                         {currentLanguage === 'es' && 'Duración'}
                         {currentLanguage === 'it' && 'Durata'}
                         {currentLanguage === 'en' && 'Duration'}
                       </th>
-                      <th className="text-left py-2 px-2">
+                      <th className="text-left py-2 px-2 text-gray-900 font-semibold">
                         {currentLanguage === 'fr' && 'Finalité'}
                         {currentLanguage === 'es' && 'Finalidad'}
                         {currentLanguage === 'it' && 'Finalità'}
@@ -333,20 +333,20 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
                   </thead>
                   <tbody>
                     <tr className="border-b">
-                      <td className="py-2 px-2 font-mono text-xs">session_id</td>
-                      <td className="py-2 px-2">
+                      <td className="py-2 px-2 font-mono text-xs text-gray-900">session_id</td>
+                      <td className="py-2 px-2 text-gray-900">
                         {currentLanguage === 'fr' && 'Strictement nécessaire'}
                         {currentLanguage === 'es' && 'Estrictamente necesaria'}
                         {currentLanguage === 'it' && 'Strettamente necessario'}
                         {currentLanguage === 'en' && 'Strictly necessary'}
                       </td>
-                      <td className="py-2 px-2">
+                      <td className="py-2 px-2 text-gray-900">
                         {currentLanguage === 'fr' && 'Session'}
                         {currentLanguage === 'es' && 'Sesión'}
                         {currentLanguage === 'it' && 'Sessione'}
                         {currentLanguage === 'en' && 'Session'}
                       </td>
-                      <td className="py-2 px-2">
+                      <td className="py-2 px-2 text-gray-900">
                         {currentLanguage === 'fr' && 'Maintien de la session utilisateur'}
                         {currentLanguage === 'es' && 'Mantenimiento de la sesión del usuario'}
                         {currentLanguage === 'it' && 'Mantenimento della sessione utente'}
@@ -354,20 +354,20 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
                       </td>
                     </tr>
                     <tr className="border-b">
-                      <td className="py-2 px-2 font-mono text-xs">cookie_consent</td>
-                      <td className="py-2 px-2">
+                      <td className="py-2 px-2 font-mono text-xs text-gray-900">cookie_consent</td>
+                      <td className="py-2 px-2 text-gray-900">
                         {currentLanguage === 'fr' && 'Strictement nécessaire'}
                         {currentLanguage === 'es' && 'Estrictamente necesaria'}
                         {currentLanguage === 'it' && 'Strettamente necessario'}
                         {currentLanguage === 'en' && 'Strictly necessary'}
                       </td>
-                      <td className="py-2 px-2">
+                      <td className="py-2 px-2 text-gray-900">
                         {currentLanguage === 'fr' && '13 mois'}
                         {currentLanguage === 'es' && '13 meses'}
                         {currentLanguage === 'it' && '13 mesi'}
                         {currentLanguage === 'en' && '13 months'}
                       </td>
-                      <td className="py-2 px-2">
+                      <td className="py-2 px-2 text-gray-900">
                         {currentLanguage === 'fr' && 'Mémorisation de votre choix concernant les cookies'}
                         {currentLanguage === 'es' && 'Memorización de su elección sobre las cookies'}
                         {currentLanguage === 'it' && 'Memorizzazione della vostra scelta riguardo ai cookie'}
@@ -375,20 +375,20 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
                       </td>
                     </tr>
                     <tr>
-                      <td className="py-2 px-2 font-mono text-xs">analytics_*</td>
-                      <td className="py-2 px-2">
+                      <td className="py-2 px-2 font-mono text-xs text-gray-900">analytics_*</td>
+                      <td className="py-2 px-2 text-gray-900">
                         {currentLanguage === 'fr' && 'Performance'}
                         {currentLanguage === 'es' && 'Rendimiento'}
                         {currentLanguage === 'it' && 'Prestazioni'}
                         {currentLanguage === 'en' && 'Performance'}
                       </td>
-                      <td className="py-2 px-2">
+                      <td className="py-2 px-2 text-gray-900">
                         {currentLanguage === 'fr' && '13 mois'}
                         {currentLanguage === 'es' && '13 meses'}
                         {currentLanguage === 'it' && '13 mesi'}
                         {currentLanguage === 'en' && '13 months'}
                       </td>
-                      <td className="py-2 px-2">
+                      <td className="py-2 px-2 text-gray-900">
                         {currentLanguage === 'fr' && 'Analyse du trafic et du comportement des visiteurs'}
                         {currentLanguage === 'es' && 'Análisis de tráfico y comportamiento de visitantes'}
                         {currentLanguage === 'it' && 'Analisi del traffico e comportamento dei visitatori'}
