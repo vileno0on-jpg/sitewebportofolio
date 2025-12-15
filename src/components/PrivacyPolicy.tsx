@@ -94,10 +94,58 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </p>
         </div>
 
+        {/* Table of Contents */}
+        <div className="bg-gray-50 border-l-4 border-primary-600 p-6 rounded-lg mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">
+            {currentLanguage === 'fr' && 'Table des matières'}
+            {currentLanguage === 'es' && 'Tabla de contenidos'}
+            {currentLanguage === 'it' && 'Indice'}
+            {currentLanguage === 'en' && 'Table of Contents'}
+          </h2>
+          <nav className="space-y-2">
+            <a href="#section-1" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              1. {currentLanguage === 'fr' ? 'Responsable du traitement' : currentLanguage === 'es' ? 'Responsable del tratamiento' : currentLanguage === 'it' ? 'Responsabile del trattamento' : 'Data Controller'}
+            </a>
+            <a href="#section-2" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              2. {currentLanguage === 'fr' ? 'Données collectées' : currentLanguage === 'es' ? 'Datos recopilados' : currentLanguage === 'it' ? 'Dati raccolti' : 'Data Collected'}
+            </a>
+            <a href="#section-3" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              3. {currentLanguage === 'fr' ? 'Finalités du traitement' : currentLanguage === 'es' ? 'Finalidades del tratamiento' : currentLanguage === 'it' ? 'Finalità del trattamento' : 'Purpose of Processing'}
+            </a>
+            <a href="#section-4" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              4. {currentLanguage === 'fr' ? 'Base légale du traitement' : currentLanguage === 'es' ? 'Base legal del tratamiento' : currentLanguage === 'it' ? 'Base legale del trattamento' : 'Legal Basis for Processing'}
+            </a>
+            <a href="#section-5" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              5. {currentLanguage === 'fr' ? 'Conservation des données' : currentLanguage === 'es' ? 'Conservación de datos' : currentLanguage === 'it' ? 'Conservazione dei dati' : 'Data Retention'}
+            </a>
+            <a href="#section-6" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              6. {currentLanguage === 'fr' ? 'Partage des données' : currentLanguage === 'es' ? 'Compartir datos' : currentLanguage === 'it' ? 'Condivisione dei dati' : 'Data Sharing'}
+            </a>
+            <a href="#section-7" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              7. {currentLanguage === 'fr' ? 'Vos droits' : currentLanguage === 'es' ? 'Sus derechos' : currentLanguage === 'it' ? 'I vostri diritti' : 'Your Rights'}
+            </a>
+            <a href="#section-8" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              8. {currentLanguage === 'fr' ? 'Sécurité des données' : currentLanguage === 'es' ? 'Seguridad de datos' : currentLanguage === 'it' ? 'Sicurezza dei dati' : 'Data Security'}
+            </a>
+            <a href="#section-9" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              9. {currentLanguage === 'fr' ? 'Transferts internationaux' : currentLanguage === 'es' ? 'Transferencias internacionales' : currentLanguage === 'it' ? 'Trasferimenti internazionali' : 'International Transfers'}
+            </a>
+            <a href="#section-10" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              10. {currentLanguage === 'fr' ? 'Cookies' : currentLanguage === 'es' ? 'Cookies' : currentLanguage === 'it' ? 'Cookie' : 'Cookies'}
+            </a>
+            <a href="#section-11" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              11. {currentLanguage === 'fr' ? 'Modifications' : currentLanguage === 'es' ? 'Modificaciones' : currentLanguage === 'it' ? 'Modifiche' : 'Modifications'}
+            </a>
+            <a href="#section-12" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              12. {currentLanguage === 'fr' ? 'Réclamations' : currentLanguage === 'es' ? 'Reclamaciones' : currentLanguage === 'it' ? 'Reclami' : 'Complaints'}
+            </a>
+          </nav>
+        </div>
+
         {/* Content */}
         <div className="prose prose-lg max-w-none space-y-8">
           {/* Section 1 */}
-          <div>
+          <div id="section-1" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
               <HiUser className="text-primary-600" size={24} />
               {currentLanguage === 'fr' && '1. Responsable du traitement'}
@@ -152,7 +200,7 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 2 */}
-          <div>
+          <div id="section-2" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
               <HiEye className="text-primary-600" size={24} />
               {currentLanguage === 'fr' && '2. Données collectées'}
@@ -197,7 +245,7 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 3 */}
-          <div>
+          <div id="section-3" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '3. Finalités du traitement'}
               {currentLanguage === 'es' && '3. Finalidades del tratamiento'}
@@ -247,7 +295,7 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 4 */}
-          <div>
+          <div id="section-4" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '4. Base légale du traitement'}
               {currentLanguage === 'es' && '4. Base legal del tratamiento'}
@@ -291,7 +339,7 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 5 */}
-          <div>
+          <div id="section-5" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
               <HiLockClosed className="text-primary-600" size={24} />
               {currentLanguage === 'fr' && '5. Conservation des données'}
@@ -330,7 +378,7 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 6 */}
-          <div>
+          <div id="section-6" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '6. Partage des données'}
               {currentLanguage === 'es' && '6. Compartir datos'}
@@ -368,7 +416,7 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 7 */}
-          <div>
+          <div id="section-7" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '7. Vos droits'}
               {currentLanguage === 'es' && '7. Sus derechos'}
@@ -485,7 +533,7 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 8 */}
-          <div>
+          <div id="section-8" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '8. Sécurité des données'}
               {currentLanguage === 'es' && '8. Seguridad de datos'}
@@ -523,7 +571,7 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 9 */}
-          <div>
+          <div id="section-9" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '9. Transferts internationaux'}
               {currentLanguage === 'es' && '9. Transferencias internacionales'}
@@ -541,7 +589,7 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 10 */}
-          <div>
+          <div id="section-10" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '10. Cookies'}
               {currentLanguage === 'es' && '10. Cookies'}
@@ -568,7 +616,7 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 11 */}
-          <div>
+          <div id="section-11" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '11. Modifications'}
               {currentLanguage === 'es' && '11. Modificaciones'}
@@ -586,7 +634,7 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
           </div>
 
           {/* Section 12 */}
-          <div>
+          <div id="section-12" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '12. Réclamations'}
               {currentLanguage === 'es' && '12. Reclamaciones'}

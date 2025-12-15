@@ -80,10 +80,49 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </p>
         </div>
 
+        {/* Table of Contents */}
+        <div className="bg-gray-50 border-l-4 border-primary-600 p-6 rounded-lg mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">
+            {currentLanguage === 'fr' && 'Table des matières'}
+            {currentLanguage === 'es' && 'Tabla de contenidos'}
+            {currentLanguage === 'it' && 'Indice'}
+            {currentLanguage === 'en' && 'Table of Contents'}
+          </h2>
+          <nav className="space-y-2">
+            <a href="#section-1" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              1. {currentLanguage === 'fr' ? 'Qu\'est-ce qu\'un cookie ?' : currentLanguage === 'es' ? '¿Qué es una cookie?' : currentLanguage === 'it' ? 'Cos\'è un cookie?' : 'What is a Cookie?'}
+            </a>
+            <a href="#section-2" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              2. {currentLanguage === 'fr' ? 'Types de cookies utilisés' : currentLanguage === 'es' ? 'Tipos de cookies utilizadas' : currentLanguage === 'it' ? 'Tipi di cookie utilizzati' : 'Types of Cookies Used'}
+            </a>
+            <a href="#section-3" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              3. {currentLanguage === 'fr' ? 'Cookies que nous utilisons' : currentLanguage === 'es' ? 'Cookies que utilizamos' : currentLanguage === 'it' ? 'Cookie che utilizziamo' : 'Cookies We Use'}
+            </a>
+            <a href="#section-4" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              4. {currentLanguage === 'fr' ? 'Gestion des cookies' : currentLanguage === 'es' ? 'Gestión de cookies' : currentLanguage === 'it' ? 'Gestione dei cookie' : 'Cookie Management'}
+            </a>
+            <a href="#section-5" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              5. {currentLanguage === 'fr' ? 'Paramètres par navigateur' : currentLanguage === 'es' ? 'Configuración por navegador' : currentLanguage === 'it' ? 'Impostazioni per browser' : 'Browser Settings'}
+            </a>
+            <a href="#section-6" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              6. {currentLanguage === 'fr' ? 'Cookies tiers' : currentLanguage === 'es' ? 'Cookies de terceros' : currentLanguage === 'it' ? 'Cookie di terze parti' : 'Third-Party Cookies'}
+            </a>
+            <a href="#section-7" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              7. {currentLanguage === 'fr' ? 'Durée de conservation' : currentLanguage === 'es' ? 'Duración de conservación' : currentLanguage === 'it' ? 'Durata di conservazione' : 'Retention Period'}
+            </a>
+            <a href="#section-8" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              8. {currentLanguage === 'fr' ? 'Modifications' : currentLanguage === 'es' ? 'Modificaciones' : currentLanguage === 'it' ? 'Modifiche' : 'Modifications'}
+            </a>
+            <a href="#section-9" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              9. {currentLanguage === 'fr' ? 'Contact' : currentLanguage === 'es' ? 'Contacto' : currentLanguage === 'it' ? 'Contatto' : 'Contact'}
+            </a>
+          </nav>
+        </div>
+
         {/* Content */}
         <div className="prose prose-lg max-w-none space-y-8">
           {/* Section 1 */}
-          <div>
+          <div id="section-1" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
               <HiInformationCircle className="text-primary-600" size={24} />
               {currentLanguage === 'fr' && '1. Qu\'est-ce qu\'un cookie ?'}
@@ -126,7 +165,7 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </div>
 
           {/* Section 2 */}
-          <div>
+          <div id="section-2" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '2. Types de cookies utilisés'}
               {currentLanguage === 'es' && '2. Tipos de cookies utilizadas'}
@@ -248,7 +287,7 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </div>
 
           {/* Section 3 */}
-          <div>
+          <div id="section-3" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '3. Cookies utilisés sur ce site'}
               {currentLanguage === 'es' && '3. Cookies utilizadas en este sitio'}
@@ -363,7 +402,7 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </div>
 
           {/* Section 4 */}
-          <div>
+          <div id="section-4" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '4. Finalités d\'utilisation'}
               {currentLanguage === 'es' && '4. Finalidades de uso'}
@@ -413,7 +452,7 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </div>
 
           {/* Section 5 */}
-          <div>
+          <div id="section-5" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
               <HiShieldCheck className="text-primary-600" size={24} />
               {currentLanguage === 'fr' && '5. Gestion des cookies'}
@@ -486,7 +525,7 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </div>
 
           {/* Section 6 */}
-          <div>
+          <div id="section-6" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '6. Paramètres par navigateur'}
               {currentLanguage === 'es' && '6. Configuración por navegador'}
@@ -534,7 +573,7 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </div>
 
           {/* Section 7 */}
-          <div>
+          <div id="section-7" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '7. Cookies tiers'}
               {currentLanguage === 'es' && '7. Cookies de terceros'}
@@ -602,7 +641,7 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </div>
 
           {/* Section 8 */}
-          <div>
+          <div id="section-8" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '8. Durée de conservation'}
               {currentLanguage === 'es' && '8. Duración de conservación'}
@@ -646,7 +685,7 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </div>
 
           {/* Section 9 */}
-          <div>
+          <div id="section-9" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '9. Modifications'}
               {currentLanguage === 'es' && '9. Modificaciones'}

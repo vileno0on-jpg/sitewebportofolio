@@ -91,10 +91,58 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </p>
         </div>
 
+        {/* Table of Contents */}
+        <div className="bg-gray-50 border-l-4 border-primary-600 p-6 rounded-lg mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">
+            {currentLanguage === 'fr' && 'Table des matières'}
+            {currentLanguage === 'es' && 'Tabla de contenidos'}
+            {currentLanguage === 'it' && 'Indice'}
+            {currentLanguage === 'en' && 'Table of Contents'}
+          </h2>
+          <nav className="space-y-2">
+            <a href="#section-1" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              1. {currentLanguage === 'fr' ? 'Informations légales' : currentLanguage === 'es' ? 'Información legal' : currentLanguage === 'it' ? 'Informazioni legali' : 'Legal Information'}
+            </a>
+            <a href="#section-2" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              2. {currentLanguage === 'fr' ? 'Acceptation des conditions' : currentLanguage === 'es' ? 'Aceptación de los términos' : currentLanguage === 'it' ? 'Accettazione dei termini' : 'Acceptance of Terms'}
+            </a>
+            <a href="#section-3" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              3. {currentLanguage === 'fr' ? 'Utilisation du site' : currentLanguage === 'es' ? 'Uso del sitio' : currentLanguage === 'it' ? 'Utilizzo del sito' : 'Use of the Site'}
+            </a>
+            <a href="#section-4" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              4. {currentLanguage === 'fr' ? 'Propriété intellectuelle' : currentLanguage === 'es' ? 'Propiedad intelectual' : currentLanguage === 'it' ? 'Proprietà intellettuale' : 'Intellectual Property'}
+            </a>
+            <a href="#section-5" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              5. {currentLanguage === 'fr' ? 'Services proposés' : currentLanguage === 'es' ? 'Servicios ofrecidos' : currentLanguage === 'it' ? 'Servizi offerti' : 'Services Offered'}
+            </a>
+            <a href="#section-6" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              6. {currentLanguage === 'fr' ? 'Limitation de responsabilité' : currentLanguage === 'es' ? 'Limitación de responsabilidad' : currentLanguage === 'it' ? 'Limitazione di responsabilità' : 'Limitation of Liability'}
+            </a>
+            <a href="#section-7" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              7. {currentLanguage === 'fr' ? 'Liens externes' : currentLanguage === 'es' ? 'Enlaces externos' : currentLanguage === 'it' ? 'Link esterni' : 'External Links'}
+            </a>
+            <a href="#section-8" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              8. {currentLanguage === 'fr' ? 'Données personnelles' : currentLanguage === 'es' ? 'Datos personales' : currentLanguage === 'it' ? 'Dati personali' : 'Personal Data'}
+            </a>
+            <a href="#section-9" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              9. {currentLanguage === 'fr' ? 'Confidentialité professionnelle' : currentLanguage === 'es' ? 'Confidencialidad profesional' : currentLanguage === 'it' ? 'Riservatezza professionale' : 'Professional Confidentiality'}
+            </a>
+            <a href="#section-10" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              10. {currentLanguage === 'fr' ? 'Droit applicable et juridiction' : currentLanguage === 'es' ? 'Ley aplicable y jurisdicción' : currentLanguage === 'it' ? 'Legge applicabile e giurisdizione' : 'Applicable Law and Jurisdiction'}
+            </a>
+            <a href="#section-11" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              11. {currentLanguage === 'fr' ? 'Modifications' : currentLanguage === 'es' ? 'Modificaciones' : currentLanguage === 'it' ? 'Modifiche' : 'Modifications'}
+            </a>
+            <a href="#section-12" className="block text-primary-600 hover:text-primary-700 hover:underline">
+              12. {currentLanguage === 'fr' ? 'Nullité partielle' : currentLanguage === 'es' ? 'Nulidad parcial' : currentLanguage === 'it' ? 'Nullità parziale' : 'Partial Invalidity'}
+            </a>
+          </nav>
+        </div>
+
         {/* Content */}
         <div className="prose prose-lg max-w-none space-y-8">
           {/* Section 1 */}
-          <div>
+          <div id="section-1" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
               <HiDocumentText className="text-primary-600" size={24} />
               {currentLanguage === 'fr' && '1. Informations légales'}
@@ -149,7 +197,7 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 2 */}
-          <div>
+          <div id="section-2" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '2. Acceptation des conditions'}
               {currentLanguage === 'es' && '2. Aceptación de los términos'}
@@ -191,7 +239,7 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 3 */}
-          <div>
+          <div id="section-3" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '3. Utilisation du site'}
               {currentLanguage === 'es' && '3. Uso del sitio'}
@@ -247,7 +295,7 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 4 */}
-          <div>
+          <div id="section-4" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '4. Propriété intellectuelle'}
               {currentLanguage === 'es' && '4. Propiedad intelectual'}
@@ -315,7 +363,7 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 5 */}
-          <div>
+          <div id="section-5" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
               <HiShieldCheck className="text-primary-600" size={24} />
               {currentLanguage === 'fr' && '5. Services proposés'}
@@ -400,7 +448,7 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 6 */}
-          <div>
+          <div id="section-6" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
               <HiExclamationCircle className="text-primary-600" size={24} />
               {currentLanguage === 'fr' && '6. Limitation de responsabilité'}
@@ -467,7 +515,7 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 7 */}
-          <div>
+          <div id="section-7" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '7. Liens externes'}
               {currentLanguage === 'es' && '7. Enlaces externos'}
@@ -509,7 +557,7 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 8 */}
-          <div>
+          <div id="section-8" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               8. Données personnelles
             </h2>
@@ -534,7 +582,7 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 9 */}
-          <div>
+          <div id="section-9" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '9. Confidentialité professionnelle'}
               {currentLanguage === 'es' && '9. Confidencialidad profesional'}
@@ -576,7 +624,7 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 10 */}
-          <div>
+          <div id="section-10" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '10. Droit applicable et juridiction'}
               {currentLanguage === 'es' && '10. Ley aplicable y jurisdicción'}
@@ -614,7 +662,7 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 11 */}
-          <div>
+          <div id="section-11" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '11. Modifications'}
               {currentLanguage === 'es' && '11. Modificaciones'}
@@ -656,7 +704,7 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 12 */}
-          <div>
+          <div id="section-12" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               {currentLanguage === 'fr' && '12. Nullité partielle'}
               {currentLanguage === 'es' && '12. Nulidad parcial'}
