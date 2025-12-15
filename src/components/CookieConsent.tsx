@@ -164,3 +164,4 @@ const CookieConsent = ({ setActiveSection }: CookieConsentProps) => {
 }
 
 export default CookieConsent
+

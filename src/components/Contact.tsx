@@ -314,20 +314,43 @@ const Contact = () => {
             </div>
 
             {/* Interactive Map */}
-            <div className="rounded-lg overflow-hidden shadow-lg">
-              <iframe
-                src="https://www.openstreetmap.org/export/embed.html?bbox=6.1200%2C46.1950%2C6.1600%2C46.2150&layer=mapnik&marker=46.20503197911405%2C6.132475315942188"
-                width="100%"
-                height="300"
-                style={{ border: 0 }}
-                title="Carte de Genève - OD Omar Deiri"
-              ></iframe>
-              <div className="bg-primary-50 p-4">
-                <h4 className="font-semibold text-gray-900 mb-2">{t('contact.location.title')}</h4>
-                <p className="text-gray-600 text-sm" dangerouslySetInnerHTML={{ __html: t('contact.location.address') }} />
-                <p className="text-gray-500 text-xs mt-2">
-                  {t('contact.location.note')}
-                </p>
+            <div className="rounded-lg overflow-hidden shadow-lg border-2 border-primary-100">
+              <div className="relative">
+                <iframe
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=6.1450%2C46.1950%2C6.1750%2C46.2100&layer=mapnik&marker=46.20222%2C6.1602"
+                  width="100%"
+                  height="450"
+                  style={{ border: 0 }}
+                  title="Carte de Genève - Route de Frontenex 46, 1207 Genève"
+                  className="w-full"
+                  allowFullScreen
+                ></iframe>
+                <div className="absolute top-4 right-4">
+                  <a
+                    href="https://www.openstreetmap.org/?mlat=46.20222&mlon=6.1602&zoom=16"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-white hover:bg-primary-50 text-primary-600 px-4 py-2 rounded-lg shadow-md font-semibold text-sm transition-colors duration-200 flex items-center gap-2"
+                  >
+                    <HiLocationMarker size={18} />
+                    {t('contact.map.viewLarger') || 'View Larger Map'}
+                  </a>
+                </div>
+              </div>
+              <div className="bg-gradient-to-br from-primary-50 to-primary-100 p-6 border-t border-primary-200">
+                <div className="flex items-start gap-3">
+                  <HiLocationMarker className="text-primary-600 flex-shrink-0 mt-1" size={24} />
+                  <div className="flex-1">
+                    <h4 className="font-bold text-gray-900 mb-2 text-lg">{t('contact.location.title')}</h4>
+                    <p className="text-gray-700 text-base font-medium mb-1" dangerouslySetInnerHTML={{ __html: t('contact.location.address') }} />
+                    <p className="text-gray-600 text-sm">
+                      Route de Frontenex 46, 1207 Genève, Switzerland
+                    </p>
+                    <p className="text-gray-500 text-xs mt-3 italic">
+                      {t('contact.location.note')}
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 

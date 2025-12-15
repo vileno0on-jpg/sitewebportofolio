@@ -206,6 +206,9 @@
       "address": "Route de Frontenex 46, 1207 Ginevra<br />Svizzera",
       "note": "Situato nel cuore di Ginevra, facilmente accessibile con i trasporti pubblici e parcheggio disponibile"
     },
+    "map": {
+      "viewLarger": "Visualizza mappa più grande"
+    },
     "urgency": {
       "title": "Per beni deprezzati",
       "description": "Per beni deprezzati, è imperativo poter agire molto rapidamente e avere liquidità. Contattaci immediatamente per qualsiasi opportunità."

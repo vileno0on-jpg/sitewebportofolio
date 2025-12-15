@@ -15,7 +15,7 @@
     "phone": "Phone",
     "email": "Email",
     "address": "Address",
-    "addressValue": "Route de Frontenex 46<br />1207 Geneva",
+    "addressValue": "46 route de Frontenex<br />1207 Geneva",
     "whyChooseUs": {
       "title": "Why Choose Us",
       "subtitle": "Professional expertise backed by authorization and extensive experience",
@@ -205,6 +205,9 @@
       "title": "Our location in Geneva",
       "address": "Route de Frontenex 46, 1207 Geneva<br />Switzerland",
       "note": "Located in the heart of Geneva, easily accessible by public transport and parking available"
+    },
+    "map": {
+      "viewLarger": "View Larger Map"
     },
     "urgency": {
       "title": "For depreciated assets",

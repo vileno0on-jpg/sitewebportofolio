@@ -206,6 +206,9 @@
       "address": "Route de Frontenex 46, 1207 Genève<br />Suisse",
       "note": "Situé au cœur de Genève, facilement accessible en transports publics avec parking disponible à proximité"
     },
+    "map": {
+      "viewLarger": "Voir la carte complète"
+    },
     "urgency": {
       "title": "Pour les actifs dépréciés",
       "description": "En matière d'actifs dépréciés, il est impératif de pouvoir agir très rapidement et de disposer de liquidités immédiatement. Contactez-nous sans délai pour toute opportunité."

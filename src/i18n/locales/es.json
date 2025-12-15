@@ -206,6 +206,9 @@
       "address": "Route de Frontenex 46, 1207 Ginebra<br />Suiza",
       "note": "Ubicado en el corazón de Ginebra, fácilmente accesible en transporte público y con aparcamiento disponible"
     },
+    "map": {
+      "viewLarger": "Ver mapa más grande"
+    },
     "urgency": {
       "title": "Para activos depreciados",
       "description": "Para activos depreciados, es imperativo poder actuar muy rápidamente y tener liquidez. Contáctenos inmediatamente para cualquier oportunidad."
