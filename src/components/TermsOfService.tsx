@@ -1,4 +1,4 @@
-import { HiDocumentText, HiShieldCheck, HiScale, HiExclamationCircle, HiCheckCircle, HiLockClosed, HiGlobe, HiUser, HiOfficeBuilding, HiKey } from 'react-icons/hi'
+import { HiDocumentText, HiShieldCheck, HiScale, HiExclamationCircle, HiCheckCircle, HiLockClosed, HiGlobe, HiOfficeBuilding, HiKey } from 'react-icons/hi'
 import { useTranslation } from 'react-i18next'
 
 interface TermsOfServiceProps {
@@ -208,8 +208,11 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 2 */}
-          <div id="section-2" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-2" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiCheckCircle className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '2. Acceptation des conditions'}
               {currentLanguage === 'es' && '2. Aceptación de los términos'}
               {currentLanguage === 'it' && '2. Accettazione dei termini'}
@@ -250,8 +253,11 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 3 */}
-          <div id="section-3" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-3" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiDocumentText className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '3. Utilisation du site'}
               {currentLanguage === 'es' && '3. Uso del sitio'}
               {currentLanguage === 'it' && '3. Utilizzo del sito'}
@@ -264,50 +270,59 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
                 {currentLanguage === 'it' && 'Vi impegnate a utilizzare questo sito solo per scopi legali e in modo da non:'}
                 {currentLanguage === 'en' && 'You agree to use this site only for lawful purposes and in a manner that does not:'}
               </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>
-                  {currentLanguage === 'fr' && 'Violer les lois, règlements ou droits de tiers'}
-                  {currentLanguage === 'es' && 'Violar leyes, regulaciones o derechos de terceros'}
-                  {currentLanguage === 'it' && 'Violare leggi, regolamenti o diritti di terzi'}
-                  {currentLanguage === 'en' && 'Violate laws, regulations, or third-party rights'}
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <HiExclamationCircle className="text-red-500 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Violer les lois, règlements ou droits de tiers'}
+                    {currentLanguage === 'es' && 'Violar leyes, regulaciones o derechos de terceros'}
+                    {currentLanguage === 'it' && 'Violare leggi, regolamenti o diritti di terzi'}
+                    {currentLanguage === 'en' && 'Violate laws, regulations, or third-party rights'}</span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Transmettre des contenus illégaux, offensants, diffamatoires ou nuisibles'}
-                  {currentLanguage === 'es' && 'Transmitir contenidos ilegales, ofensivos, difamatorios o dañinos'}
-                  {currentLanguage === 'it' && 'Trasmettere contenuti illegali, offensivi, diffamatori o dannosi'}
-                  {currentLanguage === 'en' && 'Transmit illegal, offensive, defamatory, or harmful content'}
+                <li className="flex items-start gap-3">
+                  <HiExclamationCircle className="text-red-500 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Transmettre des contenus illégaux, offensants, diffamatoires ou nuisibles'}
+                    {currentLanguage === 'es' && 'Transmitir contenidos ilegales, ofensivos, difamatorios o dañinos'}
+                    {currentLanguage === 'it' && 'Trasmettere contenuti illegali, offensivi, diffamatori o dannosi'}
+                    {currentLanguage === 'en' && 'Transmit illegal, offensive, defamatory, or harmful content'}</span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Perturber ou endommager le fonctionnement du site'}
-                  {currentLanguage === 'es' && 'Perturbar o dañar el funcionamiento del sitio'}
-                  {currentLanguage === 'it' && 'Perturbare o danneggiare il funzionamento del sito'}
-                  {currentLanguage === 'en' && 'Disrupt or damage the site\'s operation'}
+                <li className="flex items-start gap-3">
+                  <HiExclamationCircle className="text-red-500 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Perturber ou endommager le fonctionnement du site'}
+                    {currentLanguage === 'es' && 'Perturbar o dañar el funcionamiento del sitio'}
+                    {currentLanguage === 'it' && 'Perturbare o danneggiare il funzionamento del sito'}
+                    {currentLanguage === 'en' && 'Disrupt or damage the site\'s operation'}</span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Tenter d\'accéder de manière non autorisée à des zones restreintes du site'}
-                  {currentLanguage === 'es' && 'Intentar acceder de manera no autorizada a áreas restringidas del sitio'}
-                  {currentLanguage === 'it' && 'Tentare di accedere in modo non autorizzato ad aree ristrette del sito'}
-                  {currentLanguage === 'en' && 'Attempt to access restricted areas of the site without authorization'}
+                <li className="flex items-start gap-3">
+                  <HiExclamationCircle className="text-red-500 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Tenter d\'accéder de manière non autorisée à des zones restreintes du site'}
+                    {currentLanguage === 'es' && 'Intentar acceder de manera no autorizada a áreas restringidas del sitio'}
+                    {currentLanguage === 'it' && 'Tentare di accedere in modo non autorizzato ad aree ristrette del sito'}
+                    {currentLanguage === 'en' && 'Attempt to access restricted areas of the site without authorization'}</span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Utiliser des robots, scripts automatisés ou autres moyens pour extraire des données'}
-                  {currentLanguage === 'es' && 'Utilizar robots, scripts automatizados u otros medios para extraer datos'}
-                  {currentLanguage === 'it' && 'Utilizzare robot, script automatizzati o altri mezzi per estrarre dati'}
-                  {currentLanguage === 'en' && 'Use robots, automated scripts, or other means to extract data'}
+                <li className="flex items-start gap-3">
+                  <HiExclamationCircle className="text-red-500 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Utiliser des robots, scripts automatisés ou autres moyens pour extraire des données'}
+                    {currentLanguage === 'es' && 'Utilizar robots, scripts automatizados u otros medios para extraer datos'}
+                    {currentLanguage === 'it' && 'Utilizzare robot, script automatizzati o altri mezzi per estrarre dati'}
+                    {currentLanguage === 'en' && 'Use robots, automated scripts, or other means to extract data'}</span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Reproduire, copier ou revendre tout ou partie du contenu sans autorisation'}
-                  {currentLanguage === 'es' && 'Reproducir, copiar o revender todo o parte del contenido sin autorización'}
-                  {currentLanguage === 'it' && 'Riprodurre, copiare o rivendere tutto o parte del contenuto senza autorizzazione'}
-                  {currentLanguage === 'en' && 'Reproduce, copy, or resell any or all content without authorization'}
+                <li className="flex items-start gap-3">
+                  <HiExclamationCircle className="text-red-500 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Reproduire, copier ou revendre tout ou partie du contenu sans autorisation'}
+                    {currentLanguage === 'es' && 'Reproducir, copiar o revender todo o parte del contenido sin autorización'}
+                    {currentLanguage === 'it' && 'Riprodurre, copiare o rivendere tutto o parte del contenuto senza autorizzazione'}
+                    {currentLanguage === 'en' && 'Reproduce, copy, or resell any or all content without authorization'}</span>
                 </li>
               </ul>
             </div>
           </div>
 
           {/* Section 4 */}
-          <div id="section-4" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-4" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiKey className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '4. Propriété intellectuelle'}
               {currentLanguage === 'es' && '4. Propiedad intelectual'}
               {currentLanguage === 'it' && '4. Proprietà intellettuale'}
@@ -374,9 +389,11 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 5 */}
-          <div id="section-5" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-              <HiShieldCheck className="text-primary-600" size={24} />
+          <div id="section-5" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiShieldCheck className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '5. Services proposés'}
               {currentLanguage === 'es' && '5. Servicios ofrecidos'}
               {currentLanguage === 'it' && '5. Servizi offerti'}
@@ -391,42 +408,48 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
                   'offers the following services:'
                 }
               </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>
-                  {currentLanguage === 'fr' && 'Intermédiation et négociation d\'actifs mobiliers et immobiliers'}
-                  {currentLanguage === 'es' && 'Intermediación y negociación de activos muebles e inmuebles'}
-                  {currentLanguage === 'it' && 'Intermediazione e negoziazione di beni mobili e immobili'}
-                  {currentLanguage === 'en' && 'Intermediation and negotiation of movable and immovable assets'}
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <HiCheckCircle className="text-primary-600 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Intermédiation et négociation d\'actifs mobiliers et immobiliers'}
+                    {currentLanguage === 'es' && 'Intermediación y negociación de activos muebles e inmuebles'}
+                    {currentLanguage === 'it' && 'Intermediazione e negoziazione di beni mobili e immobili'}
+                    {currentLanguage === 'en' && 'Intermediation and negotiation of movable and immovable assets'}</span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Conseil aux PME'}
-                  {currentLanguage === 'es' && 'Consultoría para PYME'}
-                  {currentLanguage === 'it' && 'Consulenza per PMI'}
-                  {currentLanguage === 'en' && 'SME consulting'}
+                <li className="flex items-start gap-3">
+                  <HiCheckCircle className="text-primary-600 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Conseil aux PME'}
+                    {currentLanguage === 'es' && 'Consultoría para PYME'}
+                    {currentLanguage === 'it' && 'Consulenza per PMI'}
+                    {currentLanguage === 'en' && 'SME consulting'}</span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Cession d\'entreprises'}
-                  {currentLanguage === 'es' && 'Cesión de empresas'}
-                  {currentLanguage === 'it' && 'Cessione di aziende'}
-                  {currentLanguage === 'en' && 'Business transfers'}
+                <li className="flex items-start gap-3">
+                  <HiCheckCircle className="text-primary-600 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Cession d\'entreprises'}
+                    {currentLanguage === 'es' && 'Cesión de empresas'}
+                    {currentLanguage === 'it' && 'Cessione di aziende'}
+                    {currentLanguage === 'en' && 'Business transfers'}</span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Évaluation immobilière'}
-                  {currentLanguage === 'es' && 'Evaluación inmobiliaria'}
-                  {currentLanguage === 'it' && 'Valutazione immobiliare'}
-                  {currentLanguage === 'en' && 'Real estate evaluation'}
+                <li className="flex items-start gap-3">
+                  <HiCheckCircle className="text-primary-600 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Évaluation immobilière'}
+                    {currentLanguage === 'es' && 'Evaluación inmobiliaria'}
+                    {currentLanguage === 'it' && 'Valutazione immobiliare'}
+                    {currentLanguage === 'en' && 'Real estate evaluation'}</span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Gestion locative'}
-                  {currentLanguage === 'es' && 'Gestión de alquileres'}
-                  {currentLanguage === 'it' && 'Gestione locativa'}
-                  {currentLanguage === 'en' && 'Rental management'}
+                <li className="flex items-start gap-3">
+                  <HiCheckCircle className="text-primary-600 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Gestion locative'}
+                    {currentLanguage === 'es' && 'Gestión de alquileres'}
+                    {currentLanguage === 'it' && 'Gestione locativa'}
+                    {currentLanguage === 'en' && 'Rental management'}</span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'Négociation d\'actifs dépréciés'}
-                  {currentLanguage === 'es' && 'Negociación de activos depreciados'}
-                  {currentLanguage === 'it' && 'Negoziazione di beni deprezzati'}
-                  {currentLanguage === 'en' && 'Negotiation of depreciated assets'}
+                <li className="flex items-start gap-3">
+                  <HiCheckCircle className="text-primary-600 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'Négociation d\'actifs dépréciés'}
+                    {currentLanguage === 'es' && 'Negociación de activos depreciados'}
+                    {currentLanguage === 'it' && 'Negoziazione di beni deprezzati'}
+                    {currentLanguage === 'en' && 'Negotiation of depreciated assets'}</span>
                 </li>
               </ul>
               <p className="mt-3">
@@ -459,9 +482,11 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 6 */}
-          <div id="section-6" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-              <HiExclamationCircle className="text-primary-600" size={24} />
+          <div id="section-6" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiExclamationCircle className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '6. Limitation de responsabilité'}
               {currentLanguage === 'es' && '6. Limitación de responsabilidad'}
               {currentLanguage === 'it' && '6. Limitazione di responsabilità'}
@@ -476,24 +501,27 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
                   'strives to provide accurate and up-to-date information on this site. However, we do not guarantee:'
                 }
               </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>
-                  {currentLanguage === 'fr' && 'L\'exactitude, la complétude ou l\'actualité des informations'}
-                  {currentLanguage === 'es' && 'La exactitud, integridad o actualidad de la información'}
-                  {currentLanguage === 'it' && 'L\'accuratezza, completezza o attualità delle informazioni'}
-                  {currentLanguage === 'en' && 'The accuracy, completeness, or timeliness of information'}
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <HiExclamationCircle className="text-yellow-500 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'L\'exactitude, la complétude ou l\'actualité des informations'}
+                    {currentLanguage === 'es' && 'La exactitud, integridad o actualidad de la información'}
+                    {currentLanguage === 'it' && 'L\'accuratezza, completezza o attualità delle informazioni'}
+                    {currentLanguage === 'en' && 'The accuracy, completeness, or timeliness of information'}</span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'L\'absence d\'interruption ou d\'erreur dans le fonctionnement du site'}
-                  {currentLanguage === 'es' && 'La ausencia de interrupciones o errores en el funcionamiento del sitio'}
-                  {currentLanguage === 'it' && 'L\'assenza di interruzioni o errori nel funzionamento del sito'}
-                  {currentLanguage === 'en' && 'The absence of interruptions or errors in the site\'s operation'}
+                <li className="flex items-start gap-3">
+                  <HiExclamationCircle className="text-yellow-500 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'L\'absence d\'interruption ou d\'erreur dans le fonctionnement du site'}
+                    {currentLanguage === 'es' && 'La ausencia de interrupciones o errores en el funcionamiento del sitio'}
+                    {currentLanguage === 'it' && 'L\'assenza di interruzioni o errori nel funzionamento del sito'}
+                    {currentLanguage === 'en' && 'The absence of interruptions or errors in the site\'s operation'}</span>
                 </li>
-                <li>
-                  {currentLanguage === 'fr' && 'L\'absence de virus ou autres éléments nuisibles'}
-                  {currentLanguage === 'es' && 'La ausencia de virus u otros elementos dañinos'}
-                  {currentLanguage === 'it' && 'L\'assenza di virus o altri elementi dannosi'}
-                  {currentLanguage === 'en' && 'The absence of viruses or other harmful elements'}
+                <li className="flex items-start gap-3">
+                  <HiExclamationCircle className="text-yellow-500 flex-shrink-0 mt-1" size={18} />
+                  <span>{currentLanguage === 'fr' && 'L\'absence de virus ou autres éléments nuisibles'}
+                    {currentLanguage === 'es' && 'La ausencia de virus u otros elementos dañinos'}
+                    {currentLanguage === 'it' && 'L\'assenza di virus o altri elementi dannosi'}
+                    {currentLanguage === 'en' && 'The absence of viruses or other harmful elements'}</span>
                 </li>
               </ul>
               <p className="mt-3">
@@ -526,8 +554,11 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 7 */}
-          <div id="section-7" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-7" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiGlobe className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '7. Liens externes'}
               {currentLanguage === 'es' && '7. Enlaces externos'}
               {currentLanguage === 'it' && '7. Link esterni'}
@@ -568,8 +599,11 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 8 */}
-          <div id="section-8" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-8" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiShieldCheck className="text-primary-600" size={24} />
+              </div>
               8. Données personnelles
             </h2>
             <div className="text-gray-700 space-y-3">
@@ -593,8 +627,11 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 9 */}
-          <div id="section-9" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-9" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiLockClosed className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '9. Confidentialité professionnelle'}
               {currentLanguage === 'es' && '9. Confidencialidad profesional'}
               {currentLanguage === 'it' && '9. Riservatezza professionale'}
@@ -635,8 +672,11 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 10 */}
-          <div id="section-10" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-10" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiScale className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '10. Droit applicable et juridiction'}
               {currentLanguage === 'es' && '10. Ley aplicable y jurisdicción'}
               {currentLanguage === 'it' && '10. Legge applicabile e giurisdizione'}
@@ -673,8 +713,11 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 11 */}
-          <div id="section-11" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-11" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiExclamationCircle className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '11. Modifications'}
               {currentLanguage === 'es' && '11. Modificaciones'}
               {currentLanguage === 'it' && '11. Modifiche'}
@@ -715,8 +758,11 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
           </div>
 
           {/* Section 12 */}
-          <div id="section-12" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-12" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiDocumentText className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '12. Nullité partielle'}
               {currentLanguage === 'es' && '12. Nulidad parcial'}
               {currentLanguage === 'it' && '12. Nullità parziale'}

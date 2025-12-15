@@ -1,4 +1,4 @@
-import { HiShieldCheck, HiInformationCircle } from 'react-icons/hi'
+import { HiShieldCheck, HiInformationCircle, HiLockClosed, HiGlobe, HiExclamationCircle, HiDocumentText, HiCog, HiMail } from 'react-icons/hi'
 import { useTranslation } from 'react-i18next'
 
 interface CookiePolicyProps {
@@ -122,9 +122,11 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
         {/* Content */}
         <div className="prose prose-lg max-w-none space-y-8">
           {/* Section 1 */}
-          <div id="section-1" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-              <HiInformationCircle className="text-primary-600" size={24} />
+          <div id="section-1" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiInformationCircle className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '1. Qu\'est-ce qu\'un cookie ?'}
               {currentLanguage === 'es' && '1. ¿Qué es una cookie?'}
               {currentLanguage === 'it' && '1. Cos\'è un cookie?'}
@@ -165,8 +167,11 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </div>
 
           {/* Section 2 */}
-          <div id="section-2" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-2" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiCog className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '2. Types de cookies utilisés'}
               {currentLanguage === 'es' && '2. Tipos de cookies utilizadas'}
               {currentLanguage === 'it' && '2. Tipi di cookie utilizzati'}
@@ -287,8 +292,11 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </div>
 
           {/* Section 3 */}
-          <div id="section-3" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-3" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiDocumentText className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '3. Cookies utilisés sur ce site'}
               {currentLanguage === 'es' && '3. Cookies utilizadas en este sitio'}
               {currentLanguage === 'it' && '3. Cookie utilizzati su questo sito'}
@@ -402,8 +410,11 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </div>
 
           {/* Section 4 */}
-          <div id="section-4" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-4" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiCog className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '4. Finalités d\'utilisation'}
               {currentLanguage === 'es' && '4. Finalidades de uso'}
               {currentLanguage === 'it' && '4. Finalità d\'uso'}
@@ -452,8 +463,11 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </div>
 
           {/* Section 5 */}
-          <div id="section-5" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+          <div id="section-5" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiGlobe className="text-primary-600" size={24} />
+              </div>
               <HiShieldCheck className="text-primary-600" size={24} />
               {currentLanguage === 'fr' && '5. Gestion des cookies'}
               {currentLanguage === 'es' && '5. Gestión de cookies'}
@@ -525,8 +539,11 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </div>
 
           {/* Section 6 */}
-          <div id="section-6" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-6" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiGlobe className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '6. Paramètres par navigateur'}
               {currentLanguage === 'es' && '6. Configuración por navegador'}
               {currentLanguage === 'it' && '6. Impostazioni per browser'}
@@ -573,8 +590,11 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </div>
 
           {/* Section 7 */}
-          <div id="section-7" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-7" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiLockClosed className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '7. Cookies tiers'}
               {currentLanguage === 'es' && '7. Cookies de terceros'}
               {currentLanguage === 'it' && '7. Cookie di terze parti'}
@@ -641,8 +661,11 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </div>
 
           {/* Section 8 */}
-          <div id="section-8" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-8" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiExclamationCircle className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '8. Durée de conservation'}
               {currentLanguage === 'es' && '8. Duración de conservación'}
               {currentLanguage === 'it' && '8. Durata di conservazione'}
@@ -685,8 +708,11 @@ const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps
           </div>
 
           {/* Section 9 */}
-          <div id="section-9" className="scroll-mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div id="section-9" className="scroll-mt-20 bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-300">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <HiMail className="text-primary-600" size={24} />
+              </div>
               {currentLanguage === 'fr' && '9. Modifications'}
               {currentLanguage === 'es' && '9. Modificaciones'}
               {currentLanguage === 'it' && '9. Modifiche'}
