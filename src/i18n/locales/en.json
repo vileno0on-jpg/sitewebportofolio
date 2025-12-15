@@ -1,0 +1,324 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Omar Deiri",
+    "subtitle": "Negotiation and intermediation of movable and immovable assets",
+    "description": "Specialized in depreciated assets, real estate and business transfers in Geneva",
+    "discoverServices": "Discover our services",
+    "contactUs": "Contact us",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "addressValue": "Route de Frontenex 46<br />1207 Geneva",
+    "whyChooseUs": {
+      "title": "Why Choose Us",
+      "subtitle": "Professional expertise backed by authorization and extensive experience",
+      "authorizedAgency": {
+        "title": "Authorized Agency",
+        "description": "Business agency authorized by the Geneva State Council"
+      },
+      "universityEducation": {
+        "title": "University Education",
+        "description": "Law degree with postgraduate degree in management"
+      },
+      "provenExpertise": {
+        "title": "Proven Expertise",
+        "description": "More than 15 years in forced liquidation and restructuring"
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Specialized in the negotiation and intermediation of movable and immovable assets, as well as business transfers",
+    "depreciatedAssets": {
+      "title": "Depreciated Assets",
+      "description": "Our expertise in negotiating depreciated assets is unmatched. \"Depreciated assets\" offer excellent opportunities for bargain hunters. We help you find movable assets, real estate and businesses at unbeatable prices.",
+      "features": {
+        "1": "Complete documentary analysis",
+        "2": "Physical asset evaluation",
+        "3": "Asset valuation",
+        "4": "Rapid action and available liquidity"
+      }
+    },
+    "realEstate": {
+      "title": "Real Estate",
+      "description": "We meet all your real estate expectations because we take pride in advising and supporting you in all your steps, whether in a private or commercial perspective.",
+      "features": {
+        "1": "Purchase and sale of real estate",
+        "2": "Help finding real estate",
+        "3": "Advice and financing search",
+        "4": "Expertise and valuations"
+      }
+    },
+    "businessTransfer": {
+      "title": "Business Transfers",
+      "description": "For many years, we have observed strong demand for business and company takeovers. As a business agency authorized by the Geneva State Council, we combine references, skills and extensive experience.",
+      "features": {
+        "1": "Preparation for succession, merger or split",
+        "2": "Business restructuring",
+        "3": "Management buy-out or buy-in",
+        "4": "Search for deals at competitive rates"
+      }
+    },
+    "cta": {
+      "title": "Try and see the difference for yourself!",
+      "description": "You won't have to pay or train a team of assistants, apprentices or interns, but you'll have an experienced contact person capable of providing you with tailor-made services.",
+      "button": "Contact us"
+    }
+  },
+  "about": {
+    "title": "About OD - Omar Deiri",
+    "subtitle": "Sole proprietorship specialized in the negotiation and intermediation of movable and immovable assets, as well as business transfers",
+    "expertiseTitle": "Omar Deiri's expertise",
+    "expertise1": "Our founder, Omar Deiri, has more than fifteen years of professional experience in forced liquidation of movable and immovable property.",
+    "expertise2": "Having also restructured companies, agency networks, distribution networks as well as debts, Mr. Omar Deiri is a skilled negotiator, with a university degree in law complemented by a postgraduate degree in management.",
+    "expertise3": "Furthermore, OD is an SME with a light structure that can provide the services of a large company at lower effective costs.",
+    "expertise4": "So you won't have to pay or train a team of assistants, apprentices or interns, but you'll have an experienced contact person capable of providing you with tailor-made services and results that meet your expectations.",
+    "values": {
+      "education": {
+        "title": "University Education",
+        "description": "University degree in law complemented by a postgraduate degree in management"
+      },
+      "structure": {
+        "title": "Light Structure",
+        "description": "SME with a light structure that can provide the services of a large company at lower effective costs"
+      },
+      "approach": {
+        "title": "Direct Approach",
+        "description": "No intermediate team - experienced contact person for tailor-made services"
+      },
+      "reactivity": {
+        "title": "Reactivity",
+        "description": "Ability to act very quickly and have liquidity for depreciated assets"
+      }
+    },
+    "marketKnowledge": {
+      "title": "Our perfect knowledge of the local market",
+      "realEstate": {
+        "title": "For real estate",
+        "description": "To find or sell the desired property, contact us! We take pride in advising and supporting you in all your steps.",
+        "features": {
+          "1": "Purchase and sale of real estate",
+          "2": "Help finding real estate",
+          "3": "Advice and financing search",
+          "4": "Expertise and valuations"
+        }
+      },
+      "business": {
+        "title": "For businesses",
+        "description": "Business agency authorized by the Geneva State Council, we have many references, skills and extensive experience in this field.",
+        "features": {
+          "1": "Business transfer",
+          "2": "Preparation for succession, merger or split",
+          "3": "Management buy-out or buy-in",
+          "4": "Search for deals at competitive rates"
+        }
+      }
+    },
+    "cta": {
+      "title": "Don't hesitate to contact us!",
+      "description": "We ensure personalized, rapid, complete and confidential handling of your file.",
+      "button": "Contact us"
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Specialized in the negotiation of depreciated assets, real estate and business transfers",
+    "confidential": "Confidential treatment guaranteed",
+    "methods": {
+      "phone": {
+        "title": "Direct Phone",
+        "description": "Immediate contact with Omar Deiri",
+        "contact": "022 789 00 60",
+        "availability": "Monday to Friday, 8am-6pm"
+      },
+      "email": {
+        "title": "Professional Email",
+        "description": "Response guaranteed within 24h",
+        "contact": "omar@deiri.ch",
+        "availability": "Confidential treatment"
+      },
+      "appointment": {
+        "title": "Appointment",
+        "description": "Personalized consultation",
+        "contact": "On-site or online",
+        "availability": "According to your availability"
+      }
+    },
+    "form": {
+      "title": "Information request",
+      "description": "Whether you're interested in depreciated assets, a real estate project or a business transfer, we ensure personalized and confidential treatment.",
+      "name": "Full name *",
+      "namePlaceholder": "Your full name",
+      "email": "Email *",
+      "emailPlaceholder": "your.email@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+41 XX XXX XX XX",
+      "service": "Service concerned *",
+      "servicePlaceholder": "Choose a service",
+      "serviceOptions": {
+        "depreciated": "Depreciated assets",
+        "realEstate": "Real estate",
+        "businessTransfer": "Business transfers",
+        "consulting": "SME consulting",
+        "other": "Other request"
+      },
+      "subject": "Subject of your request *",
+      "subjectPlaceholder": "Ex: Search for depreciated assets, real estate sale...",
+      "message": "Detailed message *",
+      "messagePlaceholder": "Describe your project, your specific needs, your budget, your deadlines... The more details you give us, the more effectively we can help you.",
+      "confidential": "All exchanges are treated in strict confidence",
+      "submit": "Send my request",
+      "success": "Thank you for your message. We ensure personalized, rapid, complete and confidential handling of your file."
+    },
+    "info": {
+      "title": "OD - Omar Deiri",
+      "description": "Sole proprietorship specialized in the negotiation and intermediation of movable and immovable assets, as well as business transfers. Business agency authorized by the Geneva State Council.",
+      "address": "Address",
+      "addressValue": "Route de Frontenex 46<br />1207 Geneva<br />Switzerland",
+      "phone": "Phone",
+      "phoneValue": "022 789 00 60",
+      "phoneNote": "Direct contact - no assistant",
+      "email": "Email",
+      "emailValue": "omar@deiri.ch",
+      "emailNote": "Response guaranteed within 24h",
+      "hours": "Working hours",
+      "hoursValue": "Monday - Friday: 8:00 AM - 6:00 PM<br />Saturday: By appointment<br />Sunday: Closed",
+      "hoursNote": "Flexible availability according to your needs"
+    },
+    "credentials": {
+      "title": "Authorizations and qualifications",
+      "items": {
+        "1": "Business agency authorized by the Geneva State Council",
+        "2": "University degree in law complemented by a postgraduate degree in management",
+        "3": "More than 15 years of experience in forced liquidation",
+        "4": "Business restructuring and distribution networks"
+      }
+    },
+    "location": {
+      "title": "Our location in Geneva",
+      "address": "Route de Frontenex 46, 1207 Geneva<br />Switzerland",
+      "note": "Located in the heart of Geneva, easily accessible by public transport and parking available"
+    },
+    "urgency": {
+      "title": "For depreciated assets",
+      "description": "For depreciated assets, it is imperative to be able to act very quickly and have liquidity. Contact us immediately for any opportunity."
+    },
+    "cta": {
+      "title": "Ready to discover our services?",
+      "description": "Try and see the difference for yourself! You won't have to pay or train an intermediate team, but you'll have an experienced contact person capable of providing you with tailor-made services.",
+      "confidential": "All our exchanges are treated in strict confidence"
+    }
+  },
+  "footer": {
+    "description": "Real estate expert and SME advisor in Geneva. Specialized in real estate, depreciated assets and business consulting.",
+    "services": "Our Services",
+    "servicesItems": {
+      "realEstate": "Real Estate",
+      "consulting": "SME Consulting",
+      "depreciated": "Depreciated Assets",
+      "evaluation": "Real Estate Evaluation",
+      "management": "Rental Management"
+    },
+    "quickLinks": "Quick Links",
+    "legal": "Legal Information",
+    "legalItems": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    },
+    "copyright": "© {{year}} Omar Deiri. All rights reserved.",
+    "madeWith": "Website made with React & Tailwind CSS"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Quickly find answers to the most common questions about our services, processes and expertise in real estate and business consulting.",
+    "categories": {
+      "all": "All questions",
+      "services": "Services",
+      "process": "Process",
+      "legal": "Legal aspects",
+      "geographic": "Service area",
+      "urgency": "Urgency",
+      "experience": "Experience",
+      "contact": "Contact"
+    },
+    "cta": {
+      "title": "Can't find the answer to your question?",
+      "description": "Don't hesitate to contact us directly. We respond to all your questions within 24 hours and guarantee confidential treatment of your request."
+    },
+    "questions": {
+      "services1": {
+        "q": "What services does OD - Omar Deiri offer?",
+        "a": "OD - Omar Deiri offers a complete range of services: intermediation and negotiation of movable and immovable assets, SME consulting, business transfers, real estate evaluation, rental management, and specialized negotiation of depreciated assets. We are authorized as a business agency by the Geneva State Council."
+      },
+      "services2": {
+        "q": "What is a depreciated asset?",
+        "a": "A depreciated asset is property (movable or immovable) whose value has significantly decreased, often in the context of liquidation, bankruptcy or restructuring. We specialize in identifying, evaluating and negotiating these assets, allowing buyers to acquire property at advantageous prices and sellers to quickly realize liquidity."
+      },
+      "services3": {
+        "q": "How does real estate intermediation work?",
+        "a": "As an authorized intermediary, we facilitate real estate transactions by connecting buyers and sellers, negotiating sale conditions, managing legal documentation and ensuring follow-up until transaction completion. We work with residential, commercial and industrial properties in Geneva and Switzerland."
+      },
+      "services4": {
+        "q": "Do you offer SME consulting services?",
+        "a": "Yes, we offer strategic consulting services to small and medium-sized enterprises, particularly in restructuring, operational optimization, asset management and preparation for transfer. Our more than 15 years of experience in forced liquidation and restructuring allows us to provide valuable expertise."
+      },
+      "process1": {
+        "q": "How does a first contact work?",
+        "a": "You can contact us by phone (022 789 00 60), email (omar@deiri.ch) or via the contact form on our website. We guarantee a response within 24h. A first meeting (on-site or online) will allow us to understand your needs and propose an adapted solution. All exchanges are strictly confidential."
+      },
+      "process2": {
+        "q": "What are your response times?",
+        "a": "We commit to responding to all requests within 24 business hours. For depreciated assets requiring rapid action, we can intervene in even shorter timeframes. Reactivity is essential in our field of activity."
+      },
+      "process3": {
+        "q": "What documents should I prepare for a transaction?",
+        "a": "Required documents vary according to the type of transaction. For a real estate transaction: title deed, surface certificate, expert reports, charge status. For a business transfer: annual accounts, employment contracts, leases, authorizations. We will provide you with a detailed list adapted to your situation during the first meeting."
+      },
+      "legal1": {
+        "q": "Are you authorized to practice in Switzerland?",
+        "a": "Yes, OD - Omar Deiri is a business agency authorized by the Geneva State Council. We respect all Swiss regulations regarding real estate intermediation and business consulting. Our authorization guarantees our professionalism and legal compliance."
+      },
+      "legal2": {
+        "q": "How do you guarantee confidentiality?",
+        "a": "Confidentiality is at the heart of our professional approach. All exchanges are treated in strict confidence. We respect professional secrecy and legal obligations regarding data protection (GDPR and Swiss DPA). No information is shared without your explicit consent."
+      },
+      "legal3": {
+        "q": "What are your fees?",
+        "a": "Our fees vary according to the type of service and the complexity of the file. They are generally based on a percentage of the transaction or on a flat-rate basis, always agreed in advance and formalized in writing. We prioritize transparency and will provide you with a detailed quote without commitment after the first meeting."
+      },
+      "geographic1": {
+        "q": "Do you only operate in Geneva?",
+        "a": "Although our headquarters is in Geneva, we operate throughout French-speaking Switzerland and can handle files in other regions as needed. For depreciated assets and certain specific transactions, we can also operate internationally in collaboration with our partners."
+      },
+      "geographic2": {
+        "q": "Can you organize online appointments?",
+        "a": "Yes, we offer remote consultations via videoconference for your convenience. However, for certain transactions (real estate visits, business audits), a physical meeting may be necessary. We adapt to your constraints and preferences."
+      },
+      "urgency1": {
+        "q": "Why is speed important for depreciated assets?",
+        "a": "Depreciated assets often require rapid action because they are generally linked to liquidation or urgent restructuring situations. The ability to act quickly and have liquidity can make the difference between seizing an opportunity or missing it. This is why we maintain maximum reactivity on these files."
+      },
+      "experience1": {
+        "q": "What is your experience?",
+        "a": "Omar Deiri has a university degree in law complemented by a postgraduate degree in management. With more than 15 years of experience in forced liquidation, business restructuring and distribution networks, we have developed solid expertise in negotiating depreciated assets and real estate intermediation."
+      },
+      "contact1": {
+        "q": "Can I contact you directly without going through an assistant?",
+        "a": "Absolutely. At OD - Omar Deiri, you have direct contact with Omar Deiri himself, without intermediary. You can call him directly at 022 789 00 60 or write to him at omar@deiri.ch. This direct approach guarantees clear communication and immediate understanding of your needs."
+      },
+      "contact2": {
+        "q": "What are your opening hours?",
+        "a": "Our standard hours are Monday to Friday from 8:00 AM to 6:00 PM. Appointments can be organized on Saturday upon request. For urgent files, particularly depreciated assets, we remain available outside these hours as needed."
+      }
+    }
+  }
+}
+

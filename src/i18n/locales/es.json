@@ -1,0 +1,324 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "faq": "Preguntas Frecuentes"
+  },
+  "hero": {
+    "title": "Omar Deiri",
+    "subtitle": "Negociación e intermediación de activos muebles e inmuebles",
+    "description": "Especializado en activos depreciados, bienes raíces y transferencia de empresas en Ginebra",
+    "discoverServices": "Descubrir nuestros servicios",
+    "contactUs": "Contáctenos",
+    "phone": "Teléfono",
+    "email": "Correo electrónico",
+    "address": "Dirección",
+    "addressValue": "Route de Frontenex 46<br />1207 Ginebra",
+    "whyChooseUs": {
+      "title": "Por qué elegirnos",
+      "subtitle": "Experiencia profesional respaldada por autorización y amplia experiencia",
+      "authorizedAgency": {
+        "title": "Agencia autorizada",
+        "description": "Agencia de negocios autorizada por el Consejo de Estado de Ginebra"
+      },
+      "universityEducation": {
+        "title": "Formación universitaria",
+        "description": "Título universitario en derecho complementado por un postgrado en gestión"
+      },
+      "provenExpertise": {
+        "title": "Experiencia probada",
+        "description": "Más de 15 años en liquidación forzosa y reestructuración"
+      }
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Especializados en la negociación e intermediación de activos muebles e inmuebles, así como en la transferencia de empresas",
+    "depreciatedAssets": {
+      "title": "Activos Depreciados",
+      "description": "Nuestra experiencia en la negociación de activos depreciados no tiene igual. Los \"activos depreciados\" ofrecen excelentes oportunidades para los cazadores de gangas. Le ayudamos a encontrar activos muebles, inmuebles y empresas a precios imbatibles.",
+      "features": {
+        "1": "Análisis documental completo",
+        "2": "Evaluación física de activos",
+        "3": "Valoración de sus activos",
+        "4": "Acción rápida y liquidez disponible"
+      }
+    },
+    "realEstate": {
+      "title": "Bienes Raíces",
+      "description": "Satisfacemos todas sus expectativas en bienes raíces porque nos enorgullece asesorarle y acompañarle en todos sus pasos, ya sea desde una perspectiva privada o comercial.",
+      "features": {
+        "1": "Compra y venta de bienes inmuebles",
+        "2": "Ayuda para encontrar bienes inmuebles",
+        "3": "Asesoramiento y búsqueda de financiación",
+        "4": "Peritajes y valoraciones"
+      }
+    },
+    "businessTransfer": {
+      "title": "Transferencia de Empresas",
+      "description": "Durante muchos años, hemos observado una fuerte demanda de adquisición de negocios y empresas. Como agencia de negocios autorizada por el Consejo de Estado de Ginebra, combinamos referencias, habilidades y amplia experiencia.",
+      "features": {
+        "1": "Preparación para sucesión, fusión o escisión",
+        "2": "Reestructuración de empresas",
+        "3": "Management buy-out o buy-in",
+        "4": "Búsqueda de negocios a tarifas competitivas"
+      }
+    },
+    "cta": {
+      "title": "¡Pruebe y vea la diferencia usted mismo!",
+      "description": "No tendrá que pagar ni formar un equipo de asistentes, aprendices o pasantes, sino que tendrá una persona de contacto experimentada capaz de proporcionarle servicios a medida.",
+      "button": "Contáctenos"
+    }
+  },
+  "about": {
+    "title": "Acerca de OD - Omar Deiri",
+    "subtitle": "Empresa individual especializada en la negociación e intermediación de activos muebles e inmuebles, así como en la transferencia de empresas",
+    "expertiseTitle": "La experiencia de Omar Deiri",
+    "expertise1": "Nuestro fundador, Omar Deiri, tiene más de quince años de experiencia profesional en liquidación forzosa de muebles e inmuebles.",
+    "expertise2": "Habiendo también reestructurado empresas, redes de agencias, redes de distribución así como deudas, el Sr. Omar Deiri es un negociador experto, con un título universitario en derecho complementado por un postgrado en gestión.",
+    "expertise3": "Además, OD es una PYME con una estructura ligera que puede proporcionar los servicios de una gran empresa a costos efectivos más bajos.",
+    "expertise4": "Por lo tanto, no tendrá que pagar ni formar un equipo de asistentes, aprendices o pasantes, sino que tendrá una persona de contacto experimentada capaz de proporcionarle servicios a medida y resultados que cumplan con sus expectativas.",
+    "values": {
+      "education": {
+        "title": "Formación Universitaria",
+        "description": "Título universitario en derecho complementado por un postgrado en gestión"
+      },
+      "structure": {
+        "title": "Estructura Ligera",
+        "description": "PYME con una estructura ligera que puede proporcionar los servicios de una gran empresa a costos efectivos más bajos"
+      },
+      "approach": {
+        "title": "Enfoque Directo",
+        "description": "Sin equipo intermedio - persona de contacto experimentada para servicios a medida"
+      },
+      "reactivity": {
+        "title": "Reactividad",
+        "description": "Capacidad de actuar muy rápidamente y tener liquidez para activos depreciados"
+      }
+    },
+    "marketKnowledge": {
+      "title": "Nuestro perfecto conocimiento del mercado local",
+      "realEstate": {
+        "title": "Para bienes raíces",
+        "description": "Para encontrar o vender la propiedad deseada, ¡contáctenos! Nos enorgullece asesorarle y acompañarle en todos sus pasos.",
+        "features": {
+          "1": "Compra y venta de bienes inmuebles",
+          "2": "Ayuda para encontrar bienes inmuebles",
+          "3": "Asesoramiento y búsqueda de financiación",
+          "4": "Peritajes y valoraciones"
+        }
+      },
+      "business": {
+        "title": "Para empresas",
+        "description": "Agencia de negocios autorizada por el Consejo de Estado de Ginebra, tenemos muchas referencias, habilidades y amplia experiencia en este campo.",
+        "features": {
+          "1": "Transferencia de empresa",
+          "2": "Preparación para sucesión, fusión o escisión",
+          "3": "Management buy-out o buy-in",
+          "4": "Búsqueda de negocios a tarifas competitivas"
+        }
+      }
+    },
+    "cta": {
+      "title": "¡No dude en contactarnos!",
+      "description": "Garantizamos un tratamiento personalizado, rápido, completo y confidencial de su expediente.",
+      "button": "Contáctenos"
+    }
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "Especializados en la negociación de activos depreciados, bienes raíces y transferencia de empresas",
+    "confidential": "Tratamiento confidencial garantizado",
+    "methods": {
+      "phone": {
+        "title": "Teléfono Directo",
+        "description": "Contacto inmediato con Omar Deiri",
+        "contact": "022 789 00 60",
+        "availability": "Lunes a viernes, 8h-18h"
+      },
+      "email": {
+        "title": "Correo Profesional",
+        "description": "Respuesta garantizada en 24h",
+        "contact": "omar@deiri.ch",
+        "availability": "Tratamiento confidencial"
+      },
+      "appointment": {
+        "title": "Cita",
+        "description": "Consulta personalizada",
+        "contact": "En el lugar o en línea",
+        "availability": "Según su disponibilidad"
+      }
+    },
+    "form": {
+      "title": "Solicitud de información",
+      "description": "Ya sea que esté interesado en activos depreciados, un proyecto inmobiliario o una transferencia de empresa, garantizamos un tratamiento personalizado y confidencial.",
+      "name": "Nombre completo *",
+      "namePlaceholder": "Su nombre completo",
+      "email": "Correo electrónico *",
+      "emailPlaceholder": "su.correo@ejemplo.com",
+      "phone": "Teléfono",
+      "phonePlaceholder": "+41 XX XXX XX XX",
+      "service": "Servicio concernido *",
+      "servicePlaceholder": "Elija un servicio",
+      "serviceOptions": {
+        "depreciated": "Activos depreciados",
+        "realEstate": "Bienes raíces",
+        "businessTransfer": "Transferencia de empresas",
+        "consulting": "Consultoría PYME",
+        "other": "Otra solicitud"
+      },
+      "subject": "Asunto de su solicitud *",
+      "subjectPlaceholder": "Ej: Búsqueda de activos depreciados, venta inmobiliaria...",
+      "message": "Mensaje detallado *",
+      "messagePlaceholder": "Describa su proyecto, sus necesidades específicas, su presupuesto, sus plazos... Cuantos más detalles nos proporcione, más eficazmente podremos ayudarle.",
+      "confidential": "Todos los intercambios se tratan con estricta confidencialidad",
+      "submit": "Enviar mi solicitud",
+      "success": "Gracias por su mensaje. Garantizamos un tratamiento personalizado, rápido, completo y confidencial de su expediente."
+    },
+    "info": {
+      "title": "OD - Omar Deiri",
+      "description": "Empresa individual especializada en la negociación e intermediación de activos muebles e inmuebles, así como en la transferencia de empresas. Agencia de negocios autorizada por el Consejo de Estado de Ginebra.",
+      "address": "Dirección",
+      "addressValue": "Route de Frontenex 46<br />1207 Ginebra<br />Suiza",
+      "phone": "Teléfono",
+      "phoneValue": "022 789 00 60",
+      "phoneNote": "Contacto directo - sin asistente",
+      "email": "Correo electrónico",
+      "emailValue": "omar@deiri.ch",
+      "emailNote": "Respuesta garantizada en 24h",
+      "hours": "Horario de trabajo",
+      "hoursValue": "Lunes - Viernes: 8:00 - 18:00<br />Sábado: Con cita previa<br />Domingo: Cerrado",
+      "hoursNote": "Disponibilidad flexible según sus necesidades"
+    },
+    "credentials": {
+      "title": "Autorizaciones y calificaciones",
+      "items": {
+        "1": "Agencia de negocios autorizada por el Consejo de Estado de Ginebra",
+        "2": "Título universitario en derecho complementado por un postgrado en gestión",
+        "3": "Más de 15 años de experiencia en liquidación forzosa",
+        "4": "Reestructuración de empresas y redes de distribución"
+      }
+    },
+    "location": {
+      "title": "Nuestra ubicación en Ginebra",
+      "address": "Route de Frontenex 46, 1207 Ginebra<br />Suiza",
+      "note": "Ubicado en el corazón de Ginebra, fácilmente accesible en transporte público y con aparcamiento disponible"
+    },
+    "urgency": {
+      "title": "Para activos depreciados",
+      "description": "Para activos depreciados, es imperativo poder actuar muy rápidamente y tener liquidez. Contáctenos inmediatamente para cualquier oportunidad."
+    },
+    "cta": {
+      "title": "¿Listo para descubrir nuestros servicios?",
+      "description": "¡Pruebe y vea la diferencia usted mismo! No tendrá que pagar ni formar un equipo intermedio, sino que tendrá una persona de contacto experimentada capaz de proporcionarle servicios a medida.",
+      "confidential": "Todos nuestros intercambios se tratan con estricta confidencialidad"
+    }
+  },
+  "footer": {
+    "description": "Experto en bienes raíces y asesor para PYME en Ginebra. Especializado en bienes raíces, activos depreciados y consultoría empresarial.",
+    "services": "Nuestros Servicios",
+    "servicesItems": {
+      "realEstate": "Bienes Raíces",
+      "consulting": "Consultoría PYME",
+      "depreciated": "Activos Depreciados",
+      "evaluation": "Evaluación Inmobiliaria",
+      "management": "Gestión de Alquileres"
+    },
+    "quickLinks": "Enlaces Rápidos",
+    "legal": "Información Legal",
+    "legalItems": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "cookies": "Política de Cookies"
+    },
+    "copyright": "© {{year}} Omar Deiri. Todos los derechos reservados.",
+    "madeWith": "Sitio web realizado con React & Tailwind CSS"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Encuentre rápidamente respuestas a las preguntas más comunes sobre nuestros servicios, procesos y experiencia en bienes raíces y consultoría empresarial.",
+    "categories": {
+      "all": "Todas las preguntas",
+      "services": "Servicios",
+      "process": "Proceso",
+      "legal": "Aspectos legales",
+      "geographic": "Área de servicio",
+      "urgency": "Urgencia",
+      "experience": "Experiencia",
+      "contact": "Contacto"
+    },
+    "cta": {
+      "title": "¿No encuentra la respuesta a su pregunta?",
+      "description": "No dude en contactarnos directamente. Respondemos a todas sus preguntas en 24 horas y garantizamos un tratamiento confidencial de su solicitud."
+    },
+    "questions": {
+      "services1": {
+        "q": "¿Qué servicios ofrece OD - Omar Deiri?",
+        "a": "OD - Omar Deiri ofrece una gama completa de servicios: intermediación y negociación de activos muebles e inmuebles, consultoría PYME, transferencia de empresas, evaluación inmobiliaria, gestión de alquileres y negociación especializada de activos depreciados. Estamos autorizados como agencia de negocios por el Consejo de Estado de Ginebra."
+      },
+      "services2": {
+        "q": "¿Qué es un activo depreciado?",
+        "a": "Un activo depreciado es un bien (mueble o inmueble) cuyo valor ha disminuido considerablemente, a menudo en el contexto de una liquidación, quiebra o reestructuración. Nos especializamos en la identificación, evaluación y negociación de estos activos, permitiendo a los compradores adquirir bienes a precios ventajosos y a los vendedores realizar liquidez rápidamente."
+      },
+      "services3": {
+        "q": "¿Cómo funciona la intermediación inmobiliaria?",
+        "a": "Como intermediario autorizado, facilitamos las transacciones inmobiliarias conectando compradores y vendedores, negociando las condiciones de venta, gestionando la documentación legal y asegurando el seguimiento hasta la finalización de la transacción. Intervenimos para bienes residenciales, comerciales e industriales en Ginebra y Suiza."
+      },
+      "services4": {
+        "q": "¿Ofrecen servicios de consultoría para PYME?",
+        "a": "Sí, ofrecemos servicios de consultoría estratégica para pequeñas y medianas empresas, particularmente en reestructuración, optimización operativa, gestión de activos y preparación para la transferencia. Nuestra experiencia de más de 15 años en liquidación forzosa y reestructuración nos permite aportar una experiencia valiosa."
+      },
+      "process1": {
+        "q": "¿Cómo funciona un primer contacto?",
+        "a": "Puede contactarnos por teléfono (022 789 00 60), correo electrónico (omar@deiri.ch) o a través del formulario de contacto en nuestro sitio web. Garantizamos una respuesta en 24h. Una primera reunión (en el lugar o en línea) nos permitirá comprender sus necesidades y proponerle una solución adaptada. Todos los intercambios son estrictamente confidenciales."
+      },
+      "process2": {
+        "q": "¿Cuáles son sus tiempos de respuesta?",
+        "a": "Nos comprometemos a responder a todas las solicitudes en 24 horas hábiles. Para activos depreciados que requieren acción rápida, podemos intervenir en plazos aún más cortos. La reactividad es esencial en nuestro campo de actividad."
+      },
+      "process3": {
+        "q": "¿Qué documentos debo preparar para una transacción?",
+        "a": "Los documentos necesarios varían según el tipo de transacción. Para una transacción inmobiliaria: título de propiedad, certificado de superficie, informes de peritaje, estado de cargas. Para una transferencia de empresa: cuentas anuales, contratos de trabajo, arrendamientos, autorizaciones. Le proporcionaremos una lista detallada adaptada a su situación durante la primera reunión."
+      },
+      "legal1": {
+        "q": "¿Están autorizados para ejercer en Suiza?",
+        "a": "Sí, OD - Omar Deiri es una agencia de negocios autorizada por el Consejo de Estado de Ginebra. Respetamos todas las regulaciones suizas en materia de intermediación inmobiliaria y consultoría empresarial. Nuestra autorización garantiza nuestro profesionalismo y cumplimiento legal."
+      },
+      "legal2": {
+        "q": "¿Cómo garantizan la confidencialidad?",
+        "a": "La confidencialidad está en el corazón de nuestro enfoque profesional. Todos los intercambios se tratan con estricta confidencialidad. Respetamos el secreto profesional y las obligaciones legales en materia de protección de datos (RGPD y LPD suiza). Ninguna información se comparte sin su consentimiento explícito."
+      },
+      "legal3": {
+        "q": "¿Cuáles son sus honorarios?",
+        "a": "Nuestros honorarios varían según el tipo de servicio y la complejidad del expediente. Generalmente se basan en un porcentaje de la transacción o en una base de tarifa fija, siempre acordados de antemano y formalizados por escrito. Priorizamos la transparencia y le proporcionaremos un presupuesto detallado sin compromiso después de la primera reunión."
+      },
+      "geographic1": {
+        "q": "¿Intervienen solo en Ginebra?",
+        "a": "Aunque nuestra sede está en Ginebra, intervenimos en toda la Suiza francófona y podemos tratar expedientes en otras regiones según las necesidades. Para activos depreciados y ciertas transacciones específicas, también podemos intervenir internacionalmente en colaboración con nuestros socios."
+      },
+      "geographic2": {
+        "q": "¿Pueden organizar citas en línea?",
+        "a": "Sí, ofrecemos consultas a distancia por videoconferencia para su comodidad. Sin embargo, para ciertas transacciones (visitas de bienes inmuebles, auditorías de empresas), puede ser necesaria una reunión física. Nos adaptamos a sus limitaciones y preferencias."
+      },
+      "urgency1": {
+        "q": "¿Por qué es importante la rapidez para los activos depreciados?",
+        "a": "Los activos depreciados a menudo requieren acción rápida porque generalmente están vinculados a situaciones de liquidación o reestructuración urgente. La capacidad de actuar rápidamente y tener liquidez puede marcar la diferencia entre aprovechar una oportunidad o perderla. Por eso mantenemos una reactividad máxima en estos expedientes."
+      },
+      "experience1": {
+        "q": "¿Cuál es su experiencia?",
+        "a": "Omar Deiri tiene un título universitario en derecho complementado por un postgrado en gestión. Con más de 15 años de experiencia en liquidación forzosa, reestructuración de empresas y redes de distribución, hemos desarrollado una experiencia sólida en la negociación de activos depreciados y la intermediación inmobiliaria."
+      },
+      "contact1": {
+        "q": "¿Puedo contactarlos directamente sin pasar por una asistente?",
+        "a": "Absolutamente. En OD - Omar Deiri, tiene contacto directo con el propio Omar Deiri, sin intermediario. Puede llamarlo directamente al 022 789 00 60 o escribirle a omar@deiri.ch. Este enfoque directo garantiza una comunicación clara y una comprensión inmediata de sus necesidades."
+      },
+      "contact2": {
+        "q": "¿Cuáles son sus horarios de apertura?",
+        "a": "Nuestros horarios estándar son de lunes a viernes de 8:00 a 18:00. Las citas pueden organizarse los sábados previa solicitud. Para expedientes urgentes, particularmente activos depreciados, permanecemos disponibles fuera de estos horarios según las necesidades."
+      }
+    }
+  }
+}
+

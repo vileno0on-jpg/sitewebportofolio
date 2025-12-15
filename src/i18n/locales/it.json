@@ -1,0 +1,324 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Servizi",
+    "about": "Chi Siamo",
+    "contact": "Contatto",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Omar Deiri",
+    "subtitle": "Negoziazione e intermediazione di beni mobili e immobili",
+    "description": "Specializzato in beni deprezzati, immobiliare e cessione di aziende a Ginevra",
+    "discoverServices": "Scopri i nostri servizi",
+    "contactUs": "Contattaci",
+    "phone": "Telefono",
+    "email": "Email",
+    "address": "Indirizzo",
+    "addressValue": "Route de Frontenex 46<br />1207 Ginevra",
+    "whyChooseUs": {
+      "title": "Perché sceglierci",
+      "subtitle": "Competenza professionale supportata da autorizzazione e vasta esperienza",
+      "authorizedAgency": {
+        "title": "Agenzia autorizzata",
+        "description": "Agenzia d'affari autorizzata dal Consiglio di Stato di Ginevra"
+      },
+      "universityEducation": {
+        "title": "Formazione universitaria",
+        "description": "Laurea universitaria in giurisprudenza completata da un post-laurea in management"
+      },
+      "provenExpertise": {
+        "title": "Competenza provata",
+        "description": "Più di 15 anni nella liquidazione forzata e ristrutturazione"
+      }
+    }
+  },
+  "services": {
+    "title": "I Nostri Servizi",
+    "subtitle": "Specializzati nella negoziazione e intermediazione di beni mobili e immobili, nonché nella cessione di aziende",
+    "depreciatedAssets": {
+      "title": "Beni Deprezzati",
+      "description": "La nostra competenza nella negoziazione di beni deprezzati è senza eguali. I \"beni deprezzati\" offrono eccellenti opportunità ai cacciatori di affari. Ti aiutiamo a trovare beni mobili, immobili e aziende a prezzi imbattibili.",
+      "features": {
+        "1": "Analisi documentale completa",
+        "2": "Valutazione fisica dei beni",
+        "3": "Valorizzazione dei tuoi beni",
+        "4": "Azione rapida e liquidità disponibile"
+      }
+    },
+    "realEstate": {
+      "title": "Immobiliare",
+      "description": "Soddisfiamo tutte le tue aspettative immobiliari perché ci impegniamo ad consigliarti e supportarti in tutti i tuoi passaggi, sia in una prospettiva privata che commerciale.",
+      "features": {
+        "1": "Acquisto e vendita di immobili",
+        "2": "Aiuto nella ricerca di immobili",
+        "3": "Consulenza e ricerca di finanziamenti",
+        "4": "Perizie e valutazioni"
+      }
+    },
+    "businessTransfer": {
+      "title": "Cessione di Aziende",
+      "description": "Da molti anni osserviamo una forte domanda di rilevamento di attività commerciali e aziende. Come agenzia commerciale autorizzata dal Consiglio di Stato di Ginevra, combiniamo referenze, competenze e vasta esperienza.",
+      "features": {
+        "1": "Preparazione per successione, fusione o scissione",
+        "2": "Ristrutturazione aziendale",
+        "3": "Management buy-out o buy-in",
+        "4": "Ricerca di affari a tariffe competitive"
+      }
+    },
+    "cta": {
+      "title": "Prova e vedi tu stesso la differenza!",
+      "description": "Non dovrai pagare o formare un team di assistenti, apprendisti o stagisti, ma avrai una persona di contatto esperta in grado di fornirti servizi su misura.",
+      "button": "Contattaci"
+    }
+  },
+  "about": {
+    "title": "Chi Siamo - OD - Omar Deiri",
+    "subtitle": "Ditta individuale specializzata nella negoziazione e intermediazione di beni mobili e immobili, nonché nella cessione di aziende",
+    "expertiseTitle": "L'esperienza di Omar Deiri",
+    "expertise1": "Il nostro fondatore, Omar Deiri, ha più di quindici anni di esperienza professionale nella liquidazione forzata di mobili e immobili.",
+    "expertise2": "Avendo anche ristrutturato aziende, reti di agenzie, reti di distribuzione così come debiti, il Sig. Omar Deiri è un abile negoziatore, con una laurea universitaria in giurisprudenza completata da un post-laurea in management.",
+    "expertise3": "Inoltre, OD è una PMI con una struttura leggera che può fornire i servizi di una grande azienda a costi effettivi inferiori.",
+    "expertise4": "Quindi non dovrai pagare o formare un team di assistenti, apprendisti o stagisti, ma avrai una persona di contatto esperta in grado di fornirti servizi su misura e risultati che soddisfano le tue aspettative.",
+    "values": {
+      "education": {
+        "title": "Formazione Universitaria",
+        "description": "Laurea universitaria in giurisprudenza completata da un post-laurea in management"
+      },
+      "structure": {
+        "title": "Struttura Leggera",
+        "description": "PMI con una struttura leggera che può fornire i servizi di una grande azienda a costi effettivi inferiori"
+      },
+      "approach": {
+        "title": "Approccio Diretto",
+        "description": "Nessun team intermedio - persona di contatto esperta per servizi su misura"
+      },
+      "reactivity": {
+        "title": "Reattività",
+        "description": "Capacità di agire molto rapidamente e avere liquidità per beni deprezzati"
+      }
+    },
+    "marketKnowledge": {
+      "title": "La nostra perfetta conoscenza del mercato locale",
+      "realEstate": {
+        "title": "Per l'immobiliare",
+        "description": "Per trovare o vendere la proprietà desiderata, contattaci! Ci impegniamo ad consigliarti e supportarti in tutti i tuoi passaggi.",
+        "features": {
+          "1": "Acquisto e vendita di immobili",
+          "2": "Aiuto nella ricerca di immobili",
+          "3": "Consulenza e ricerca di finanziamenti",
+          "4": "Perizie e valutazioni"
+        }
+      },
+      "business": {
+        "title": "Per le aziende",
+        "description": "Agenzia commerciale autorizzata dal Consiglio di Stato di Ginevra, abbiamo molte referenze, competenze e vasta esperienza in questo settore.",
+        "features": {
+          "1": "Cessione della tua azienda",
+          "2": "Preparazione per successione, fusione o scissione",
+          "3": "Management buy-out o buy-in",
+          "4": "Ricerca di affari a tariffe competitive"
+        }
+      }
+    },
+    "cta": {
+      "title": "Non esitare a contattarci!",
+      "description": "Garantiamo un trattamento personalizzato, rapido, completo e confidenziale del tuo fascicolo.",
+      "button": "Contattaci"
+    }
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Specializzati nella negoziazione di beni deprezzati, immobiliare e cessione di aziende",
+    "confidential": "Trattamento confidenziale garantito",
+    "methods": {
+      "phone": {
+        "title": "Telefono Diretto",
+        "description": "Contatto immediato con Omar Deiri",
+        "contact": "022 789 00 60",
+        "availability": "Lunedì al venerdì, 8h-18h"
+      },
+      "email": {
+        "title": "Email Professionale",
+        "description": "Risposta garantita entro 24h",
+        "contact": "omar@deiri.ch",
+        "availability": "Trattamento confidenziale"
+      },
+      "appointment": {
+        "title": "Appuntamento",
+        "description": "Consulenza personalizzata",
+        "contact": "In loco o online",
+        "availability": "Secondo la tua disponibilità"
+      }
+    },
+    "form": {
+      "title": "Richiesta di informazioni",
+      "description": "Sia che tu sia interessato a beni deprezzati, un progetto immobiliare o la cessione di un'azienda, garantiamo un trattamento personalizzato e confidenziale.",
+      "name": "Nome completo *",
+      "namePlaceholder": "Il tuo nome completo",
+      "email": "Email *",
+      "emailPlaceholder": "tua.email@esempio.com",
+      "phone": "Telefono",
+      "phonePlaceholder": "+41 XX XXX XX XX",
+      "service": "Servizio interessato *",
+      "servicePlaceholder": "Scegli un servizio",
+      "serviceOptions": {
+        "depreciated": "Beni deprezzati",
+        "realEstate": "Immobiliare",
+        "businessTransfer": "Cessione di aziende",
+        "consulting": "Consulenza PMI",
+        "other": "Altra richiesta"
+      },
+      "subject": "Oggetto della tua richiesta *",
+      "subjectPlaceholder": "Es: Ricerca di beni deprezzati, vendita immobiliare...",
+      "message": "Messaggio dettagliato *",
+      "messagePlaceholder": "Descrivi il tuo progetto, le tue esigenze specifiche, il tuo budget, i tuoi tempi... Più dettagli ci fornisci, più efficacemente possiamo aiutarti.",
+      "confidential": "Tutti gli scambi sono trattati in modo strettamente confidenziale",
+      "submit": "Invia la mia richiesta",
+      "success": "Grazie per il tuo messaggio. Garantiamo un trattamento personalizzato, rapido, completo e confidenziale del tuo fascicolo."
+    },
+    "info": {
+      "title": "OD - Omar Deiri",
+      "description": "Ditta individuale specializzata nella negoziazione e intermediazione di beni mobili e immobili, nonché nella cessione di aziende. Agenzia commerciale autorizzata dal Consiglio di Stato di Ginevra.",
+      "address": "Indirizzo",
+      "addressValue": "Route de Frontenex 46<br />1207 Ginevra<br />Svizzera",
+      "phone": "Telefono",
+      "phoneValue": "022 789 00 60",
+      "phoneNote": "Contatto diretto - nessun assistente",
+      "email": "Email",
+      "emailValue": "omar@deiri.ch",
+      "emailNote": "Risposta garantita entro 24h",
+      "hours": "Orari di lavoro",
+      "hoursValue": "Lunedì - Venerdì: 8:00 - 18:00<br />Sabato: Su appuntamento<br />Domenica: Chiuso",
+      "hoursNote": "Disponibilità flessibile secondo le tue esigenze"
+    },
+    "credentials": {
+      "title": "Autorizzazioni e qualifiche",
+      "items": {
+        "1": "Agenzia commerciale autorizzata dal Consiglio di Stato di Ginevra",
+        "2": "Laurea universitaria in giurisprudenza completata da un post-laurea in management",
+        "3": "Più di 15 anni di esperienza nella liquidazione forzata",
+        "4": "Ristrutturazione aziendale e reti di distribuzione"
+      }
+    },
+    "location": {
+      "title": "La nostra ubicazione a Ginevra",
+      "address": "Route de Frontenex 46, 1207 Ginevra<br />Svizzera",
+      "note": "Situato nel cuore di Ginevra, facilmente accessibile con i trasporti pubblici e parcheggio disponibile"
+    },
+    "urgency": {
+      "title": "Per beni deprezzati",
+      "description": "Per beni deprezzati, è imperativo poter agire molto rapidamente e avere liquidità. Contattaci immediatamente per qualsiasi opportunità."
+    },
+    "cta": {
+      "title": "Pronto a scoprire i nostri servizi?",
+      "description": "Prova e vedi tu stesso la differenza! Non dovrai pagare o formare un team intermedio, ma avrai una persona di contatto esperta in grado di fornirti servizi su misura.",
+      "confidential": "Tutti i nostri scambi sono trattati in modo strettamente confidenziale"
+    }
+  },
+  "footer": {
+    "description": "Esperto immobiliare e consulente per PMI a Ginevra. Specializzato in immobiliare, beni deprezzati e consulenza aziendale.",
+    "services": "I Nostri Servizi",
+    "servicesItems": {
+      "realEstate": "Immobiliare",
+      "consulting": "Consulenza PMI",
+      "depreciated": "Beni Deprezzati",
+      "evaluation": "Valutazione Immobiliare",
+      "management": "Gestione Locativa"
+    },
+    "quickLinks": "Link Rapidi",
+    "legal": "Informazioni Legali",
+    "legalItems": {
+      "privacy": "Politica sulla Privacy",
+      "terms": "Termini di Servizio",
+      "cookies": "Politica sui Cookie"
+    },
+    "copyright": "© {{year}} Omar Deiri. Tutti i diritti riservati.",
+    "madeWith": "Sito web realizzato con React & Tailwind CSS"
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "subtitle": "Trova rapidamente risposte alle domande più comuni sui nostri servizi, processi ed esperienza in immobiliare e consulenza aziendale.",
+    "categories": {
+      "all": "Tutte le domande",
+      "services": "Servizi",
+      "process": "Processo",
+      "legal": "Aspetti legali",
+      "geographic": "Area di intervento",
+      "urgency": "Urgenza",
+      "experience": "Esperienza",
+      "contact": "Contatto"
+    },
+    "cta": {
+      "title": "Non trovi la risposta alla tua domanda?",
+      "description": "Non esitare a contattarci direttamente. Rispondiamo a tutte le tue domande entro 24 ore e garantiamo un trattamento confidenziale della tua richiesta."
+    },
+    "questions": {
+      "services1": {
+        "q": "Quali servizi offre OD - Omar Deiri?",
+        "a": "OD - Omar Deiri offre una gamma completa di servizi: intermediazione e negoziazione di beni mobili e immobili, consulenza PMI, cessione di aziende, valutazione immobiliare, gestione locativa e negoziazione specializzata di beni deprezzati. Siamo autorizzati come agenzia commerciale dal Consiglio di Stato di Ginevra."
+      },
+      "services2": {
+        "q": "Cos'è un bene deprezzato?",
+        "a": "Un bene deprezzato è un bene (mobile o immobile) il cui valore è diminuito considerevolmente, spesso nel contesto di una liquidazione, fallimento o ristrutturazione. Ci specializziamo nell'identificazione, valutazione e negoziazione di questi beni, permettendo agli acquirenti di acquisire beni a prezzi vantaggiosi e ai venditori di realizzare rapidamente liquidità."
+      },
+      "services3": {
+        "q": "Come funziona l'intermediazione immobiliare?",
+        "a": "Come intermediario autorizzato, facilitiamo le transazioni immobiliari collegando acquirenti e venditori, negoziando le condizioni di vendita, gestendo la documentazione legale e assicurando il follow-up fino al completamento della transazione. Interveniamo per beni residenziali, commerciali e industriali a Ginevra e in Svizzera."
+      },
+      "services4": {
+        "q": "Offrite servizi di consulenza per PMI?",
+        "a": "Sì, offriamo servizi di consulenza strategica per piccole e medie imprese, in particolare in ristrutturazione, ottimizzazione operativa, gestione degli asset e preparazione alla cessione. La nostra esperienza di più di 15 anni nella liquidazione forzata e ristrutturazione ci permette di fornire un'esperienza preziosa."
+      },
+      "process1": {
+        "q": "Come funziona un primo contatto?",
+        "a": "Puoi contattarci per telefono (022 789 00 60), email (omar@deiri.ch) o tramite il modulo di contatto sul nostro sito web. Garantiamo una risposta entro 24h. Un primo incontro (in loco o online) ci permetterà di comprendere le tue esigenze e proporti una soluzione adattata. Tutti gli scambi sono strettamente confidenziali."
+      },
+      "process2": {
+        "q": "Quali sono i vostri tempi di risposta?",
+        "a": "Ci impegniamo a rispondere a tutte le richieste entro 24 ore lavorative. Per beni deprezzati che richiedono azione rapida, possiamo intervenire in tempi ancora più brevi. La reattività è essenziale nel nostro campo di attività."
+      },
+      "process3": {
+        "q": "Quali documenti devo preparare per una transazione?",
+        "a": "I documenti necessari variano secondo il tipo di transazione. Per una transazione immobiliare: atto di proprietà, certificato di superficie, rapporti di perizia, stato delle spese. Per una cessione di azienda: conti annuali, contratti di lavoro, affitti, autorizzazioni. Ti forniremo un elenco dettagliato adattato alla tua situazione durante il primo incontro."
+      },
+      "legal1": {
+        "q": "Siete autorizzati a esercitare in Svizzera?",
+        "a": "Sì, OD - Omar Deiri è un'agenzia commerciale autorizzata dal Consiglio di Stato di Ginevra. Rispettiamo tutte le normative svizzere in materia di intermediazione immobiliare e consulenza aziendale. La nostra autorizzazione garantisce il nostro professionalismo e conformità legale."
+      },
+      "legal2": {
+        "q": "Come garantite la confidenzialità?",
+        "a": "La confidenzialità è al centro del nostro approccio professionale. Tutti gli scambi sono trattati in modo strettamente confidenziale. Rispettiamo il segreto professionale e gli obblighi legali in materia di protezione dei dati (GDPR e LPD svizzera). Nessuna informazione viene condivisa senza il tuo consenso esplicito."
+      },
+      "legal3": {
+        "q": "Quali sono i vostri onorari?",
+        "a": "I nostri onorari variano secondo il tipo di prestazione e la complessità del fascicolo. Generalmente si basano su una percentuale della transazione o su una base forfettaria, sempre concordati in anticipo e formalizzati per iscritto. Privilegiamo la trasparenza e ti forniremo un preventivo dettagliato senza impegno dopo il primo incontro."
+      },
+      "geographic1": {
+        "q": "Intervenite solo a Ginevra?",
+        "a": "Sebbene la nostra sede sia a Ginevra, interveniamo in tutta la Svizzera romanda e possiamo trattare fascicoli in altre regioni secondo le esigenze. Per beni deprezzati e certe transazioni specifiche, possiamo anche intervenire a livello internazionale in collaborazione con i nostri partner."
+      },
+      "geographic2": {
+        "q": "Potete organizzare appuntamenti online?",
+        "a": "Sì, offriamo consulenze a distanza tramite videoconferenza per la tua comodità. Tuttavia, per certe transazioni (visite di immobili, audit aziendali), può essere necessario un incontro fisico. Ci adattiamo alle tue limitazioni e preferenze."
+      },
+      "urgency1": {
+        "q": "Perché la rapidità è importante per i beni deprezzati?",
+        "a": "I beni deprezzati spesso richiedono azione rapida perché generalmente sono legati a situazioni di liquidazione o ristrutturazione urgente. La capacità di agire rapidamente e avere liquidità può fare la differenza tra cogliere un'opportunità o perderla. Ecco perché manteniamo una reattività massima su questi fascicoli."
+      },
+      "experience1": {
+        "q": "Qual è la vostra esperienza?",
+        "a": "Omar Deiri ha una laurea universitaria in giurisprudenza completata da un post-laurea in management. Con più di 15 anni di esperienza nella liquidazione forzata, ristrutturazione aziendale e reti di distribuzione, abbiamo sviluppato una solida esperienza nella negoziazione di beni deprezzati e intermediazione immobiliare."
+      },
+      "contact1": {
+        "q": "Posso contattarvi direttamente senza passare attraverso un assistente?",
+        "a": "Assolutamente. In OD - Omar Deiri, hai un contatto diretto con lo stesso Omar Deiri, senza intermediario. Puoi chiamarlo direttamente al 022 789 00 60 o scrivergli a omar@deiri.ch. Questo approccio diretto garantisce una comunicazione chiara e una comprensione immediata delle tue esigenze."
+      },
+      "contact2": {
+        "q": "Quali sono i vostri orari di apertura?",
+        "a": "I nostri orari standard sono dal lunedì al venerdì dalle 8:00 alle 18:00. Gli appuntamenti possono essere organizzati il sabato su richiesta. Per fascicoli urgenti, in particolare beni deprezzati, rimaniamo disponibili fuori da questi orari secondo le esigenze."
+      }
+    }
+  }
+}
+

@@ -1,0 +1,324 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "contact": "Contact",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Omar Deiri",
+    "subtitle": "Négociation et intermédiation d'actifs mobiliers et immobiliers",
+    "description": "Spécialisé dans les actifs dépréciés, l'immobilier et la cession d'entreprises à Genève",
+    "discoverServices": "Découvrir nos services",
+    "contactUs": "Nous contacter",
+    "phone": "Téléphone",
+    "email": "Email",
+    "address": "Adresse",
+    "addressValue": "Route de Frontenex 46<br />1207 Genève",
+    "whyChooseUs": {
+      "title": "Pourquoi nous choisir",
+      "subtitle": "Expertise professionnelle soutenue par une autorisation et une vaste expérience",
+      "authorizedAgency": {
+        "title": "Agence autorisée",
+        "description": "Agence d'affaires autorisée par le Conseil d'État de Genève"
+      },
+      "universityEducation": {
+        "title": "Formation universitaire",
+        "description": "Diplôme universitaire en droit complété par un post-grade en management"
+      },
+      "provenExpertise": {
+        "title": "Expertise éprouvée",
+        "description": "Plus de 15 ans dans la liquidation forcée et la restructuration"
+      }
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Spécialisés dans la négociation et l'intermédiation d'actifs mobiliers et immobiliers, ainsi que dans la cession d'entreprises",
+    "depreciatedAssets": {
+      "title": "Actifs Dépréciés",
+      "description": "Notre expertise en matière de négociation d'actifs dépréciés est sans égale. Ces actifs offrent d'excellentes opportunités aux investisseurs avisés. Nous vous accompagnons dans la recherche d'actifs mobiliers, immobiliers et d'entreprises à des prix défiant toute concurrence.",
+      "features": {
+        "1": "Analyse documentaire exhaustive",
+        "2": "Évaluation physique approfondie des actifs",
+        "3": "Valorisation précise de vos actifs",
+        "4": "Réactivité optimale et liquidités immédiatement disponibles"
+      }
+    },
+    "realEstate": {
+      "title": "Immobilier",
+      "description": "Nous répondons à toutes vos attentes en immobilier en mettant un point d'honneur à vous conseiller et à vous accompagner dans toutes vos démarches, qu'elles s'inscrivent dans une perspective privée ou commerciale.",
+      "features": {
+        "1": "Achat et vente de biens immobiliers",
+        "2": "Assistance dans la recherche de biens immobiliers",
+        "3": "Conseils personnalisés et recherche de financements",
+        "4": "Expertises immobilières et évaluations précises"
+      }
+    },
+    "businessTransfer": {
+      "title": "Cession d'Entreprises",
+      "description": "Depuis de nombreuses années, nous observons une forte demande de reprise de fonds de commerce et d'entreprises. En tant qu'agence en fonds de commerce autorisée par le Conseil d'État genevois, nous cumulons références solides, compétences reconnues et expérience approfondie.",
+      "features": {
+        "1": "Préparation pour succession, fusion ou scission",
+        "2": "Restructuration d'entreprises et optimisation opérationnelle",
+        "3": "Management buy-out (MBO) ou buy-in (MBI)",
+        "4": "Recherche d'opportunités d'affaires à tarifs compétitifs"
+      }
+    },
+    "cta": {
+      "title": "Testez et voyez par vous-même la différence !",
+      "description": "Vous n'aurez pas à payer ni à former une équipe d'assistantes, d'apprentis ou de stagiaires, mais vous aurez comme interlocuteur une personne expérimentée capable de vous fournir des prestations sur mesure.",
+      "button": "Nous contacter"
+    }
+  },
+  "about": {
+    "title": "À propos d'OD - Omar Deiri",
+    "subtitle": "Entreprise individuelle spécialisée dans la négociation et l'intermédiation d'actifs mobiliers et immobiliers, ainsi que dans la cession d'entreprises",
+    "expertiseTitle": "L'expertise d'Omar Deiri",
+    "expertise1": "Notre fondateur, Omar Deiri, bénéficie de plus de quinze années d'expérience professionnelle dans la liquidation forcée de meubles et d'immeubles.",
+    "expertise2": "Ayant également restructuré des entreprises, des réseaux d'agences et de distribution ainsi que géré des dettes complexes, M. Omar Deiri est un négociateur expérimenté, titulaire d'une formation universitaire en droit complétée par un post-grade en management.",
+    "expertise3": "OD est une PME dotée d'une structure légère et agile, capable de fournir des prestations équivalentes à celles d'une grande entreprise, mais à des coûts effectifs nettement inférieurs.",
+    "expertise4": "Vous n'aurez donc pas à supporter les coûts ni à former une équipe d'assistantes, d'apprentis ou de stagiaires. Vous bénéficierez directement de l'expertise d'un interlocuteur expérimenté, capable de vous fournir des prestations sur mesure et des résultats à la hauteur de vos attentes.",
+    "values": {
+      "education": {
+        "title": "Formation Universitaire",
+        "description": "Formation universitaire en droit complétée par un post-grade en management"
+      },
+      "structure": {
+        "title": "Structure Légère",
+        "description": "PME dotée d'une structure légère pouvant fournir les prestations d'une grande entreprise à des coûts effectifs inférieurs"
+      },
+      "approach": {
+        "title": "Approche Directe",
+        "description": "Pas d'équipe intermédiaire - interlocuteur expérimenté pour des prestations sur mesure"
+      },
+      "reactivity": {
+        "title": "Réactivité",
+        "description": "Capacité d'agir très rapidement et disposer de liquidités pour les actifs dépréciés"
+      }
+    },
+    "marketKnowledge": {
+      "title": "Notre parfaite connaissance du marché local",
+      "realEstate": {
+        "title": "Pour l'immobilier",
+        "description": "Pour trouver ou vendre le bien immobilier que vous recherchez, contactez-nous ! Nous mettons un point d'honneur à vous conseiller et à vous accompagner dans toutes vos démarches avec professionnalisme et discrétion.",
+        "features": {
+          "1": "Achat et vente de biens immobiliers",
+          "2": "Assistance dans la recherche de biens immobiliers",
+          "3": "Conseils personnalisés et recherche de financements",
+          "4": "Expertises immobilières et évaluations précises"
+        }
+      },
+      "business": {
+        "title": "Pour les entreprises",
+        "description": "En tant qu'agence en fonds de commerce autorisée par le Conseil d'État genevois, nous cumulons de nombreuses références, des compétences reconnues ainsi qu'une longue expérience dans ce domaine d'expertise.",
+        "features": {
+          "1": "Cession et transmission de votre entreprise",
+          "2": "Préparation pour succession, fusion ou scission",
+          "3": "Management buy-out (MBO) ou buy-in (MBI)",
+          "4": "Recherche d'opportunités d'affaires à tarifs compétitifs"
+        }
+      }
+    },
+    "cta": {
+      "title": "N'hésitez plus à prendre contact !",
+      "description": "Nous vous assurons un traitement personnalisé, rapide, complet et confidentiel de votre dossier.",
+      "button": "Nous contacter"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Spécialisés dans la négociation d'actifs dépréciés, l'immobilier et la cession d'entreprises",
+    "confidential": "Traitement confidentiel garanti",
+    "methods": {
+      "phone": {
+      "title": "Téléphone Direct",
+      "description": "Contact immédiat et personnalisé avec Omar Deiri",
+        "contact": "022 789 00 60",
+        "availability": "Du lundi au vendredi, 8h-18h"
+      },
+      "email": {
+        "title": "Email Professionnel",
+        "description": "Réponse garantie sous 24 heures",
+        "contact": "omar@deiri.ch",
+        "availability": "Traitement strictement confidentiel"
+      },
+      "appointment": {
+        "title": "Rendez-vous",
+        "description": "Consultation personnalisée et adaptée à vos besoins",
+        "contact": "Sur place ou en ligne",
+        "availability": "Selon vos disponibilités et contraintes"
+      }
+    },
+    "form": {
+      "title": "Demande de renseignements",
+      "description": "Que vous soyez intéressé par des actifs dépréciés, un projet immobilier ou la cession d'une entreprise, nous vous garantissons un traitement personnalisé, professionnel et strictement confidentiel.",
+      "name": "Nom complet *",
+      "namePlaceholder": "Votre nom complet",
+      "email": "Email *",
+      "emailPlaceholder": "votre.email@example.com",
+      "phone": "Téléphone",
+      "phonePlaceholder": "+41 XX XXX XX XX",
+      "service": "Service concerné *",
+      "servicePlaceholder": "Choisissez un service",
+      "serviceOptions": {
+        "depreciated": "Actifs dépréciés",
+        "realEstate": "Immobilier",
+        "businessTransfer": "Cession d'entreprises",
+        "consulting": "Conseil PME",
+        "other": "Autre demande"
+      },
+      "subject": "Objet de votre demande *",
+      "subjectPlaceholder": "Exemple : Recherche d'actifs dépréciés, vente immobilière, cession d'entreprise...",
+      "message": "Message détaillé *",
+      "messagePlaceholder": "Décrivez votre projet, vos besoins spécifiques, votre budget et vos délais. Plus vous nous fournirez de détails, plus nous pourrons vous accompagner efficacement.",
+      "confidential": "Tous les échanges sont traités de manière strictement confidentielle",
+      "submit": "Envoyer ma demande",
+      "success": "Merci pour votre message. Nous vous assurons un traitement personnalisé, rapide, complet et confidentiel de votre dossier."
+    },
+    "info": {
+      "title": "OD - Omar Deiri",
+      "description": "Entreprise individuelle spécialisée dans la négociation et l'intermédiation d'actifs mobiliers et immobiliers, ainsi que dans la cession d'entreprises. Agence en fonds de commerce autorisée par le Conseil d'État genevois.",
+      "address": "Adresse",
+      "addressValue": "Route de Frontenex 46<br />1207 Genève<br />Suisse",
+      "phone": "Téléphone",
+      "phoneValue": "022 789 00 60",
+      "phoneNote": "Contact direct avec Omar Deiri - sans intermédiaire",
+      "email": "Email",
+      "emailValue": "omar@deiri.ch",
+      "emailNote": "Réponse garantie sous 24h",
+      "hours": "Horaires de travail",
+      "hoursValue": "Lundi - Vendredi: 8h00 - 18h00<br />Samedi: Sur rendez-vous<br />Dimanche: Fermé",
+      "hoursNote": "Disponibilité flexible et adaptée à vos contraintes"
+    },
+    "credentials": {
+      "title": "Autorisations et qualifications",
+      "items": {
+        "1": "Agence en fonds de commerce autorisée par le Conseil d'État genevois",
+        "2": "Formation universitaire en droit complétée par un post-grade en management",
+        "3": "Plus de 15 ans d'expérience en liquidation forcée",
+        "4": "Restructuration d'entreprises et réseaux de distribution"
+      }
+    },
+    "location": {
+      "title": "Notre emplacement à Genève",
+      "address": "Route de Frontenex 46, 1207 Genève<br />Suisse",
+      "note": "Situé au cœur de Genève, facilement accessible en transports publics avec parking disponible à proximité"
+    },
+    "urgency": {
+      "title": "Pour les actifs dépréciés",
+      "description": "En matière d'actifs dépréciés, il est impératif de pouvoir agir très rapidement et de disposer de liquidités immédiatement. Contactez-nous sans délai pour toute opportunité."
+    },
+    "cta": {
+      "title": "Prêt à découvrir nos services ?",
+      "description": "Découvrez par vous-même la différence ! Vous n'aurez pas à supporter les coûts ni à former une équipe intermédiaire. Vous bénéficierez directement de l'expertise d'un interlocuteur expérimenté, capable de vous fournir des prestations sur mesure et des résultats à la hauteur de vos attentes.",
+      "confidential": "Tous nos échanges sont traités de manière strictement confidentielle"
+    }
+  },
+  "footer": {
+    "description": "Expert en immobilier et conseiller pour PME à Genève. Spécialisé dans l'immobilier, les actifs dépréciés et le conseil aux entreprises. Expertise reconnue et accompagnement personnalisé.",
+    "services": "Nos Services",
+    "servicesItems": {
+      "realEstate": "Immobilier",
+      "consulting": "Conseil PME",
+      "depreciated": "Actifs Dépréciés",
+      "evaluation": "Évaluation Immobilière",
+      "management": "Gestion Locative"
+    },
+    "quickLinks": "Liens Rapides",
+    "legal": "Informations Légales",
+    "legalItems": {
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "cookies": "Politique des cookies"
+    },
+    "copyright": "© {{year}} Omar Deiri. Tous droits réservés.",
+    "madeWith": "Site web réalisé avec React & Tailwind CSS"
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "subtitle": "Trouvez rapidement des réponses aux questions les plus fréquentes concernant nos services, nos processus et notre expertise en immobilier et conseil aux entreprises.",
+    "categories": {
+      "all": "Toutes les questions",
+      "services": "Services",
+      "process": "Processus",
+      "legal": "Aspects légaux",
+      "geographic": "Zone d'intervention",
+      "urgency": "Urgence",
+      "experience": "Expérience",
+      "contact": "Contact"
+    },
+    "cta": {
+      "title": "Vous ne trouvez pas la réponse à votre question ?",
+      "description": "N'hésitez pas à nous contacter directement. Nous répondons à toutes vos questions sous 24 heures et garantissons un traitement confidentiel de votre demande."
+    },
+    "questions": {
+      "services1": {
+        "q": "Quels services propose OD - Omar Deiri ?",
+        "a": "OD - Omar Deiri propose une gamme complète de services : intermédiation et négociation d'actifs mobiliers et immobiliers, conseil aux PME, cession d'entreprises, évaluation immobilière, gestion locative, et négociation spécialisée d'actifs dépréciés. Nous sommes agréés comme agence en fonds de commerce par le Conseil d'État genevois."
+      },
+      "services2": {
+        "q": "Qu'est-ce qu'un actif déprécié ?",
+        "a": "Un actif déprécié est un bien (mobilier ou immobilier) dont la valeur a considérablement diminué, généralement dans le cadre d'une liquidation, d'une faillite ou d'une restructuration. Nous nous spécialisons dans l'identification, l'évaluation et la négociation de ces actifs, permettant aux acheteurs d'acquérir des biens à des prix avantageux et aux vendeurs de réaliser rapidement des liquidités."
+      },
+      "services3": {
+        "q": "Comment fonctionne l'intermédiation immobilière ?",
+        "a": "En tant qu'intermédiaire agréé, nous facilitons les transactions immobilières en mettant en relation acheteurs et vendeurs, en négociant les conditions de vente, en gérant la documentation légale et en assurant le suivi jusqu'à la finalisation de la transaction. Nous intervenons pour des biens résidentiels, commerciaux et industriels à Genève et en Suisse."
+      },
+      "services4": {
+        "q": "Proposez-vous des services de conseil aux PME ?",
+        "a": "Oui, nous offrons des services de conseil stratégique aux petites et moyennes entreprises, notamment en matière de restructuration, d'optimisation opérationnelle, de gestion d'actifs et de préparation à la cession. Notre expérience de plus de 15 ans en liquidation forcée et restructuration nous permet d'apporter une expertise précieuse."
+      },
+      "process1": {
+        "q": "Comment se déroule un premier contact ?",
+        "a": "Vous pouvez nous contacter par téléphone (022 789 00 60), email (omar@deiri.ch) ou via le formulaire de contact sur notre site. Nous garantissons une réponse sous 24h. Un premier entretien (sur place ou en ligne) nous permettra de comprendre vos besoins et de vous proposer une solution adaptée. Tous les échanges sont strictement confidentiels."
+      },
+      "process2": {
+        "q": "Quels sont vos délais de réponse ?",
+        "a": "Nous nous engageons à répondre à toutes les demandes dans un délai de 24 heures ouvrables. Pour les actifs dépréciés nécessitant une action rapide, nous pouvons intervenir dans des délais encore plus courts. La réactivité est essentielle dans notre domaine d'activité et constitue l'un de nos atouts majeurs."
+      },
+      "process3": {
+        "q": "Quels documents dois-je préparer pour une transaction ?",
+        "a": "Les documents nécessaires varient selon le type de transaction. Pour une transaction immobilière : titre de propriété, certificat de superficie, rapports d'expertise, état des charges. Pour une cession d'entreprise : comptes annuels, contrats de travail, baux, autorisations. Nous vous fournirons une liste détaillée adaptée à votre situation lors du premier entretien."
+      },
+      "legal1": {
+        "q": "Êtes-vous autorisé à exercer en Suisse ?",
+        "a": "Oui, OD - Omar Deiri est une agence en fonds de commerce autorisée par le Conseil d'État genevois. Nous respectons toutes les réglementations suisses en matière d'intermédiation immobilière et de conseil aux entreprises. Notre autorisation garantit notre professionnalisme et notre conformité légale."
+      },
+      "legal2": {
+        "q": "Comment garantissez-vous la confidentialité ?",
+        "a": "La confidentialité est au cœur de notre approche professionnelle. Tous les échanges sont traités de manière strictement confidentielle. Nous respectons le secret professionnel et les obligations légales en matière de protection des données (RGPD et LPD suisse). Aucune information n'est partagée sans votre consentement explicite."
+      },
+      "legal3": {
+        "q": "Quels sont vos honoraires ?",
+        "a": "Nos honoraires varient selon le type de prestation et la complexité du dossier. Ils sont généralement basés sur un pourcentage de la transaction ou sur une base forfaitaire, toujours convenus à l'avance et formalisés par écrit dans un devis détaillé. Nous privilégions la transparence totale et vous fournirons un devis complet et détaillé, sans engagement de votre part, après le premier entretien."
+      },
+      "geographic1": {
+        "q": "Intervenez-vous uniquement à Genève ?",
+        "a": "Bien que notre siège soit situé à Genève, nous intervenons dans toute la Suisse romande et pouvons traiter des dossiers dans d'autres régions selon vos besoins. Pour les actifs dépréciés et certaines transactions spécifiques, nous pouvons également intervenir à l'international en collaboration avec notre réseau de partenaires."
+      },
+      "geographic2": {
+        "q": "Pouvez-vous organiser des rendez-vous en ligne ?",
+        "a": "Oui, nous proposons des consultations à distance via visioconférence pour votre commodité. Cependant, pour certaines transactions (visites de biens immobiliers, audits d'entreprises), une rencontre physique peut être nécessaire. Nous nous adaptons à vos contraintes et préférences."
+      },
+      "urgency1": {
+        "q": "Pourquoi la rapidité est-elle importante pour les actifs dépréciés ?",
+        "a": "Les actifs dépréciés nécessitent souvent une action rapide car ils sont généralement liés à des situations de liquidation ou de restructuration urgente. La capacité à agir rapidement et à disposer de liquidités peut faire la différence entre saisir une opportunité ou la manquer. C'est pourquoi nous maintenons une réactivité maximale sur ces dossiers."
+      },
+      "experience1": {
+        "q": "Quelle est votre expérience ?",
+        "a": "Omar Deiri possède une formation universitaire en droit complétée par un post-grade en management. Avec plus de 15 ans d'expérience en liquidation forcée, restructuration d'entreprises et réseaux de distribution, nous avons développé une expertise solide dans la négociation d'actifs dépréciés et l'intermédiation immobilière."
+      },
+      "contact1": {
+        "q": "Puis-je vous contacter directement sans passer par une assistante ?",
+        "a": "Absolument. Chez OD - Omar Deiri, vous bénéficiez d'un contact direct avec Omar Deiri lui-même, sans aucun intermédiaire. Vous pouvez l'appeler directement au 022 789 00 60 ou lui écrire à omar@deiri.ch. Cette approche directe garantit une communication claire, transparente et une compréhension immédiate de vos besoins spécifiques."
+      },
+      "contact2": {
+        "q": "Quels sont vos horaires d'ouverture ?",
+        "a": "Nos horaires standards sont du lundi au vendredi de 8h00 à 18h00. Des rendez-vous peuvent être organisés le samedi sur demande. Pour les dossiers urgents, notamment les actifs dépréciés, nous restons disponibles en dehors de ces horaires selon les besoins."
+      }
+    }
+  }
+}
+
