@@ -126,7 +126,7 @@ const Contact = () => {
                     required
                     value={formData.name}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent placeholder:text-gray-400"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent placeholder:text-gray-300"
                     placeholder={t('contact.form.namePlaceholder')}
                   />
                 </div>
@@ -141,7 +141,7 @@ const Contact = () => {
                     required
                     value={formData.email}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent placeholder:text-gray-400"
+                    className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent placeholder:text-gray-300"
                     placeholder={t('contact.form.emailPlaceholder')}
                   />
                 </div>
@@ -158,7 +158,7 @@ const Contact = () => {
                     name="phone"
                     value={formData.phone}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent placeholder:text-gray-400"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent placeholder:text-gray-300"
                     placeholder={t('contact.form.phonePlaceholder')}
                   />
                 </div>
@@ -172,9 +172,9 @@ const Contact = () => {
                     required
                     value={formData.service}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent text-gray-900"
                   >
-                    <option value="">{t('contact.form.servicePlaceholder')}</option>
+                    <option value="" className="text-gray-300">{t('contact.form.servicePlaceholder')}</option>
                     <option value="actifs-depreciees">{t('contact.form.serviceOptions.depreciated')}</option>
                     <option value="immobilier">{t('contact.form.serviceOptions.realEstate')}</option>
                     <option value="cession-entreprises">{t('contact.form.serviceOptions.businessTransfer')}</option>
@@ -195,8 +195,8 @@ const Contact = () => {
                   required
                   value={formData.subject}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent placeholder:text-gray-400"
-                  placeholder={t('contact.form.subjectPlaceholder')}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent placeholder:text-gray-300"
+                    placeholder={t('contact.form.subjectPlaceholder')}
                 />
               </div>
 
@@ -211,7 +211,7 @@ const Contact = () => {
                   rows={6}
                   value={formData.message}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent placeholder:text-gray-400"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent placeholder:text-gray-300"
                   placeholder={t('contact.form.messagePlaceholder')}
                 />
               </div>
