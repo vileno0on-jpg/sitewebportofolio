@@ -1,11 +1,11 @@
-import { HiCookie, HiShieldCheck, HiInformationCircle } from 'react-icons/hi'
+import { HiShieldCheck, HiInformationCircle } from 'react-icons/hi'
 import { useTranslation } from 'react-i18next'
 
 interface CookiePolicyProps {
   setActiveSection?: (section: string) => void
 }
 
-const CookiePolicy = ({ setActiveSection }: CookiePolicyProps) => {
+const CookiePolicy = ({ setActiveSection: _setActiveSection }: CookiePolicyProps) => {
   const { i18n } = useTranslation()
   const currentLanguage = i18n.language
 
@@ -33,7 +33,7 @@ const CookiePolicy = ({ setActiveSection }: CookiePolicyProps) => {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="flex items-center justify-center mb-4">
-            <HiCookie className="text-primary-600" size={48} />
+            <HiShieldCheck className="text-primary-600" size={48} />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             {currentLanguage === 'fr' && 'Politique des Cookies'}
@@ -495,43 +495,39 @@ const CookiePolicy = ({ setActiveSection }: CookiePolicyProps) => {
             </h2>
             <div className="text-gray-700 space-y-3">
               <p>
-                {currentLanguage === 'fr' && 'Voici comment gérer les cookies dans les principaux navigateurs :'}
-                {currentLanguage === 'es' && 'Aquí se explica cómo gestionar las cookies en los principales navegadores:'}
-                {currentLanguage === 'it' && 'Ecco come gestire i cookie nei principali browser:'}
-                {currentLanguage === 'en' && 'Here\'s how to manage cookies in the main browsers:'}
+                {currentLanguage === 'fr' ? 'Voici comment gérer les cookies dans les principaux navigateurs :' :
+                 currentLanguage === 'es' ? 'Aquí se explica cómo gestionar las cookies en los principales navegadores:' :
+                 currentLanguage === 'it' ? 'Ecco come gestire i cookie nei principali browser:' :
+                 'Here\'s how to manage cookies in the main browsers:'}
               </p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>
-                  <strong>Google Chrome :</strong> {
-                    currentLanguage === 'fr' && 'Paramètres → Confidentialité et sécurité → Cookies et autres données de sites'
-                    currentLanguage === 'es' && 'Configuración → Privacidad y seguridad → Cookies y otros datos de sitios'
-                    currentLanguage === 'it' && 'Impostazioni → Privacy e sicurezza → Cookie e altri dati dei siti'
-                    currentLanguage === 'en' && 'Settings → Privacy and security → Cookies and other site data'
-                  }
+                  <strong>Google Chrome :</strong>{' '}
+                  {currentLanguage === 'fr' ? 'Paramètres → Confidentialité et sécurité → Cookies et autres données de sites' :
+                    currentLanguage === 'es' ? 'Configuración → Privacidad y seguridad → Cookies y otros datos de sitios' :
+                    currentLanguage === 'it' ? 'Impostazioni → Privacy e sicurezza → Cookie e altri dati dei siti' :
+                    'Settings → Privacy and security → Cookies and other site data'}
                 </li>
                 <li>
-                  <strong>Mozilla Firefox :</strong> {
-                    currentLanguage === 'fr' && 'Options → Vie privée et sécurité → Cookies et données de sites'
-                    currentLanguage === 'es' && 'Opciones → Privacidad y seguridad → Cookies y datos de sitios'
-                    currentLanguage === 'it' && 'Opzioni → Privacy e sicurezza → Cookie e dati dei siti'
-                    currentLanguage === 'en' && 'Options → Privacy & Security → Cookies and Site Data'
-                  }
+                  <strong>Mozilla Firefox :</strong>{' '}
+                  {currentLanguage === 'fr' ? 'Options → Vie privée et sécurité → Cookies et données de sites' :
+                    currentLanguage === 'es' ? 'Opciones → Privacidad y seguridad → Cookies y datos de sitios' :
+                    currentLanguage === 'it' ? 'Opzioni → Privacy e sicurezza → Cookie e dati dei siti' :
+                    'Options → Privacy & Security → Cookies and Site Data'}
                 </li>
                 <li>
-                  <strong>Safari :</strong> {
-                    currentLanguage === 'fr' && 'Préférences → Confidentialité → Cookies et données de sites web'
-                    currentLanguage === 'es' && 'Preferencias → Privacidad → Cookies y datos de sitios web'
-                    currentLanguage === 'it' && 'Preferenze → Privacy → Cookie e dati dei siti web'
-                    currentLanguage === 'en' && 'Preferences → Privacy → Cookies and Website Data'
-                  }
+                  <strong>Safari :</strong>{' '}
+                  {currentLanguage === 'fr' ? 'Préférences → Confidentialité → Cookies et données de sites web' :
+                    currentLanguage === 'es' ? 'Preferencias → Privacidad → Cookies y datos de sitios web' :
+                    currentLanguage === 'it' ? 'Preferenze → Privacy → Cookie e dati dei siti web' :
+                    'Preferences → Privacy → Cookies and Website Data'}
                 </li>
                 <li>
-                  <strong>Microsoft Edge :</strong> {
-                    currentLanguage === 'fr' && 'Paramètres → Cookies et autorisations de site → Cookies et données de sites'
-                    currentLanguage === 'es' && 'Configuración → Cookies y permisos del sitio → Cookies y datos de sitios'
-                    currentLanguage === 'it' && 'Impostazioni → Cookie e autorizzazioni del sito → Cookie e dati dei siti'
-                    currentLanguage === 'en' && 'Settings → Cookies and site permissions → Cookies and site data'
-                  }
+                  <strong>Microsoft Edge :</strong>{' '}
+                  {currentLanguage === 'fr' ? 'Paramètres → Cookies et autorisations de site → Cookies et données de sites' :
+                    currentLanguage === 'es' ? 'Configuración → Cookies y permisos del sitio → Cookies y datos de sitios' :
+                    currentLanguage === 'it' ? 'Impostazioni → Cookie e autorizzazioni del sito → Cookie e dati dei siti' :
+                    'Settings → Cookies and site permissions → Cookies and site data'}
                 </li>
               </ul>
             </div>
@@ -623,29 +619,27 @@ const CookiePolicy = ({ setActiveSection }: CookiePolicyProps) => {
               <ul className="list-disc pl-6 space-y-2">
                 <li>
                   <strong>
-                    {currentLanguage === 'fr' && 'Cookies de session :'}
-                    {currentLanguage === 'es' && 'Cookies de sesión:'}
-                    {currentLanguage === 'it' && 'Cookie di sessione:'}
-                    {currentLanguage === 'en' && 'Session cookies:'}
-                  </strong> {
-                    currentLanguage === 'fr' && 'supprimés automatiquement à la fermeture du navigateur'
-                    currentLanguage === 'es' && 'eliminados automáticamente al cerrar el navegador'
-                    currentLanguage === 'it' && 'eliminati automaticamente alla chiusura del browser'
-                    currentLanguage === 'en' && 'automatically deleted when the browser closes'
-                  }
+                    {currentLanguage === 'fr' ? 'Cookies de session :' :
+                     currentLanguage === 'es' ? 'Cookies de sesión:' :
+                     currentLanguage === 'it' ? 'Cookie di sessione:' :
+                     'Session cookies:'}
+                  </strong>{' '}
+                  {currentLanguage === 'fr' ? 'supprimés automatiquement à la fermeture du navigateur' :
+                    currentLanguage === 'es' ? 'eliminados automáticamente al cerrar el navegador' :
+                    currentLanguage === 'it' ? 'eliminati automaticamente alla chiusura del browser' :
+                    'automatically deleted when the browser closes'}
                 </li>
                 <li>
                   <strong>
-                    {currentLanguage === 'fr' && 'Cookies persistants :'}
-                    {currentLanguage === 'es' && 'Cookies persistentes:'}
-                    {currentLanguage === 'it' && 'Cookie persistenti:'}
-                    {currentLanguage === 'en' && 'Persistent cookies:'}
-                  </strong> {
-                    currentLanguage === 'fr' && 'conservés jusqu\'à 13 mois maximum ou jusqu\'à leur suppression manuelle'
-                    currentLanguage === 'es' && 'conservados hasta 13 meses máximo o hasta su eliminación manual'
-                    currentLanguage === 'it' && 'conservati fino a 13 mesi massimo o fino alla loro eliminazione manuale'
-                    currentLanguage === 'en' && 'retained for up to 13 months maximum or until manual deletion'
-                  }
+                    {currentLanguage === 'fr' ? 'Cookies persistants :' :
+                     currentLanguage === 'es' ? 'Cookies persistentes:' :
+                     currentLanguage === 'it' ? 'Cookie persistenti:' :
+                     'Persistent cookies:'}
+                  </strong>{' '}
+                  {currentLanguage === 'fr' ? 'conservés jusqu\'à 13 mois maximum ou jusqu\'à leur suppression manuelle' :
+                    currentLanguage === 'es' ? 'conservados hasta 13 meses máximo o hasta su eliminación manual' :
+                    currentLanguage === 'it' ? 'conservati fino a 13 mesi massimo o fino alla loro eliminazione manuale' :
+                    'retained for up to 13 months maximum or until manual deletion'}
                 </li>
               </ul>
             </div>
