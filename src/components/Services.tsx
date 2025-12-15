@@ -1,4 +1,4 @@
-import { HiHome, HiOfficeBuilding, HiCurrencyDollar, HiBriefcase } from 'react-icons/hi'
+import { HiHome, HiCurrencyDollar, HiBriefcase } from 'react-icons/hi'
 import { useTranslation } from 'react-i18next'
 import servicesImage from '../assets/images/services-building.png'
 import ctaImage from '../assets/images/cta-businessman.png'
