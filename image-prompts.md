@@ -166,3 +166,4 @@ Add: "Swiss precision, elegant, refined, sophisticated European aesthetic"
 - Ensure images are web-optimized (compress after generation)
 - Test with actual text overlays before finalizing
 - Maintain consistent color grading across all images
+

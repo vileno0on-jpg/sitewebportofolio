@@ -36,3 +36,4 @@ if %ERRORLEVEL% EQU 0 (
     echo Run this script again after creating the repository.
 )
 pause
+

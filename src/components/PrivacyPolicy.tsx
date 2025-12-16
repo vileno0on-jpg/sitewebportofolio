@@ -796,3 +796,4 @@ const PrivacyPolicy = ({ setActiveSection }: PrivacyPolicyProps) => {
 
 export default PrivacyPolicy
 
+

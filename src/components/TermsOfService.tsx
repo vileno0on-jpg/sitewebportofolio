@@ -851,3 +851,4 @@ const TermsOfService = ({ setActiveSection }: TermsOfServiceProps) => {
 export default TermsOfService
 
 
+
