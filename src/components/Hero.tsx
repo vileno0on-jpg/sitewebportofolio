@@ -187,8 +187,56 @@ const Hero = ({ setActiveSection }: HeroProps) => {
                   <HiLocationMarker className="text-blue-600" size={24} />
                 </div>
                 <h3 className="font-semibold text-blue-900 mb-2 text-base">🏠 Visit my office</h3>
-                <p className="text-blue-800 font-medium text-sm" dangerouslySetInnerHTML={{ __html: t('hero.addressValue') }} />
-                <p className="text-blue-700 text-xs mt-1">Central Geneva location</p>
+                <p className="text-blue-800 font-medium text-sm mb-2" dangerouslySetInnerHTML={{ __html: t('hero.addressValue') }} />
+                <div className="flex flex-wrap gap-2 mb-3">
+                  <span className="inline-flex items-center gap-1 text-blue-700 text-xs bg-blue-100 px-2 py-1 rounded-full">
+                    🚗 Free parking
+                  </span>
+                  <span className="inline-flex items-center gap-1 text-blue-700 text-xs bg-blue-100 px-2 py-1 rounded-full">
+                    🚌 Bus stop nearby
+                  </span>
+                </div>
+
+                {/* Interactive Map */}
+                <div className="relative w-full h-32 rounded-lg overflow-hidden border border-blue-200/50 shadow-sm">
+                  <iframe
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=6.1400%2C46.2000%2C6.1500%2C46.2100&layer=mapnik&marker=46.2048%2C6.1448"
+                    width="100%"
+                    height="128"
+                    style={{ border: 0 }}
+                    title="Omar Deiri Office Location - Route de Frontenex 46, Geneva"
+                    className="rounded-lg"
+                    loading="lazy"
+                  ></iframe>
+                  {/* Custom marker overlay */}
+                  <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+                    <div className="relative">
+                      <div className="w-6 h-6 bg-red-500 rounded-full border-4 border-white shadow-lg animate-pulse"></div>
+                      <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-3 border-r-3 border-t-4 border-l-transparent border-r-transparent border-t-red-500"></div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Action buttons */}
+                <div className="flex gap-2 mt-3">
+                  <a
+                    href="https://www.google.com/maps/dir/?api=1&destination=Route+de+Frontenex+46,+1207+Geneva,+Switzerland"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-blue-700 hover:text-blue-800 text-xs font-medium bg-blue-50 hover:bg-blue-100 px-3 py-1.5 rounded-full transition-colors"
+                  >
+                    <HiLocationMarker size={12} />
+                    Directions
+                  </a>
+                  <a
+                    href="https://www.openstreetmap.org/?mlat=46.2048&mlon=6.1448&zoom=16"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-blue-700 hover:text-blue-800 text-xs font-medium bg-blue-50 hover:bg-blue-100 px-3 py-1.5 rounded-full transition-colors"
+                  >
+                    🗺️ Larger map
+                  </a>
+                </div>
               </div>
             </div>
           </div>
